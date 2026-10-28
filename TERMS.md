@@ -20,7 +20,7 @@
 ## 🇧🇷 Português (Brasil) — Política de Privacidade do VozViva
 
 ### Resumo Rápido (Linguagem Simples)
-- **O aplicativo VozViva instalado funciona 100% offline.** Toda a comunicação da criança, pranchas, fotos, gravações de voz e configurações ficam armazenadas **exclusivamente no seu próprio dispositivo**.
+- **O aplicativo VozViva instalado funciona 100% offline.** Toda a comunicação da criança, pranchas, subníveis, fotos da família, frases personalizadas e configurações ficam armazenadas **exclusivamente no seu próprio dispositivo**.
 - **Zero coleta de dados pessoais:** A Regard Games **não possui servidores de coleta**, não exige criação de conta, não solicita nome, e-mail, telefone ou localização e não tem acesso a nada do que é falado ou criado no aplicativo.
 - **Zero anúncios e zero rastreadores:** O VozViva é **100% gratuito**, sem publicidade, sem compras dentro do app e sem ferramentas de análise ou telemetria de terceiros.
 - **Proteção integral à criança:** O **Modo Criança** é totalmente isolado da internet e bloqueia qualquer acesso a links externos, edições ou configurações sem a validação do adulto no **Modo Responsável**.
@@ -31,15 +31,15 @@ Esta Política de Privacidade descreve como o aplicativo **VozViva — Plataform
 ### 2. Dados Armazenados Localmente no Seu Dispositivo
 Para permitir a Comunicação Aumentativa e Alternativa (CAA) personalizada, o aplicativo armazena **apenas localmente, na área privada do sistema operacional do próprio aparelho do usuário**:
 1. **Perfis, pranchas e cartões de comunicação:** vocabulário essencial e personalizado, tamanhos de grade, cores da Chave de Fitzgerald e preferências visuais/auditivas;
-2. **Mídias personalizadas (opcionais, criadas apenas no Modo Responsável):** fotografias ou imagens locais (armazenadas já sem metadados EXIF/GPS) e gravações de áudio feitas pela família ou profissional;
+2. **Mídias personalizadas (opcionais, criadas apenas no Modo Responsável):** fotografias ou imagens locais selecionadas pelo adulto (armazenadas automaticamente sem metadados EXIF/GPS) e frases personalizadas faladas pela síntese de voz offline do aparelho;
 3. **Configurações de acessibilidade e segurança local:** idioma (`pt-BR`, `en`, `es`), velocidade/tom de síntese de voz (TTS), tempo de retenção de toque e o código de proteção do Modo Responsável (armazenado apenas como hash criptográfico local).
 
 **A Regard Games jamais recebe, visualiza, sincroniza em nuvem ou compartilha esses dados.**
 
 ### 3. Permissões do Sistema Operacional (Just-in-Time)
 O VozViva funciona integralmente sem exigir permissões invasivas:
-- **Síntese de Voz (TTS) e Áudio:** utiliza os motores nativos de voz já presentes no seu sistema operacional (`Android`, `iOS`, `Windows` ou `Linux`), sem enviar o texto falado para servidores na internet.
-- **Câmera, Galeria de Fotos e Microfone (Opcionais):** solicitados **exclusivamente sob demanda (*just-in-time*) dentro do Modo Responsável** quando o adulto decide fotografar um objeto/familiar ou gravar uma voz personalizada para um cartão. Caso negadas, o aplicativo continua funcionando normalmente com sua biblioteca de símbolos e voz sintetizada.
+- **Síntese de Voz (TTS) e Áudio:** utiliza os motores nativos de voz offline já presentes no seu sistema operacional (`Android`, `Windows` ou `Linux`; versão para `Apple iOS/iPadOS` indisponível no momento), sem enviar o texto falado para servidores na internet.
+- **Seleção de Fotos e Arquivos Locais (Opcional):** acionada **exclusivamente sob demanda dentro do Modo Responsável** pelo seletor seguro do sistema operacional quando o adulto decide adicionar uma foto do aparelho para um cartão (com remoção automática de EXIF/GPS) ou importar/exportar um backup (`.assistivebackup`). O aplicativo **não** grava áudio por microfone e **não** solicita permissão de microfone.
 - **Sem permissões ocultas:** o aplicativo nunca solicita acesso a GPS/localização, agenda de contatos, telefone/SMS, Bluetooth, identificadores publicitários (`AAID`/`IDFA`) ou execução contínua em segundo plano.
 
 ### 4. Recursos Online Opcionais (Apenas no Modo Responsável)
@@ -59,7 +59,7 @@ A página institucional pública (`https://regardgames.github.io/vozviva/`) é e
 
 ### 7. Controle Total, Retenção e Exclusão de Dados (Direitos do Titular)
 Como todos os dados do aplicativo permanecem exclusivamente no seu aparelho, **você detém controle total e imediato sobre eles**:
-- Você pode editar ou excluir qualquer perfil, prancha, cartão, foto ou áudio a qualquer momento no **Modo Responsável**;
+- Você pode editar ou excluir qualquer perfil, prancha, cartão ou foto personalizada a qualquer momento no **Modo Responsável**;
 - Você pode utilizar a função **"Apagar todos os dados locais"** nas configurações do Modo Responsável ou simplesmente desinstalar o aplicativo do sistema operacional para remover definitivamente todos os registros locais.
 
 ### 8. Contato sobre Privacidade e Proteção de Dados
@@ -74,16 +74,16 @@ Em caso de dúvidas sobre esta Política de Privacidade ou sobre proteção de d
 ## 9. Termos de Uso, Licença de Software (EULA) e Aviso Importante de Saúde/Educação (`#termos`)
 
 ### 9.1. Licença de Uso Gratuita (Software Proprietário)
-O aplicativo **VozViva** é de titularidade exclusiva da **Regard Games** (`DAYVID EMERSON SILVA FERREIRA CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA`, CNPJ `54.480.912/0001-37`). É concedida ao usuário final (famílias, cuidadores, clínicas, escolas e profissionais) uma licença **gratuita, pessoal, não exclusiva, intransferível e revogável** para instalar e utilizar o aplicativo em seus dispositivos compatíveis (`Android`, `iOS`, `Windows` e `Linux`). É vedado vender, alugar, sublicenciar, distribuir versões modificadas ou cobrar de terceiros pelo acesso ou download do software VozViva, sem prejuízo dos direitos sobre bibliotecas e acervos de símbolos de terceiros regidos por suas respectivas licenças abertas.
+O aplicativo **VozViva** é de titularidade exclusiva da **Regard Games** (`DAYVID EMERSON SILVA FERREIRA CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA`, CNPJ `54.480.912/0001-37`). É concedida ao usuário final (famílias, cuidadores, clínicas, escolas e profissionais) uma licença **gratuita, pessoal, não exclusiva, intransferível e revogável** para instalar e utilizar o aplicativo em seus dispositivos compatíveis (`Android`, `Windows` e `Linux`; versão para `Apple iOS/iPadOS` indisponível no momento). É vedado vender, alugar, sublicenciar, distribuir versões modificadas ou cobrar de terceiros pelo acesso ou download do software VozViva, sem prejuízo dos direitos sobre bibliotecas e acervos de símbolos de terceiros regidos por suas respectivas licenças abertas.
 
 ### 9.2. Direitos sobre Conteúdos Criados pelo Usuário e Símbolos Abertos
-As fotos, gravações de voz e pranchas personalizadas criadas pelo usuário pertencem integralmente ao próprio usuário. Os conjuntos de pictogramas **Mulberry Symbols** (`CC BY-SA`) e **ARASAAC** (`CC BY-NC-SA 4.0`) permanecem sob a titularidade de seus respectivos autores e licenças públicas (detalhadas na seção de Créditos e Licenças).
+As fotos e pranchas personalizadas criadas pelo usuário pertencem integralmente ao próprio usuário. Os conjuntos de pictogramas **Mulberry Symbols** (`CC BY-SA`) e **ARASAAC** (`CC BY-NC-SA 4.0`) permanecem sob a titularidade de seus respectivos autores e licenças públicas (detalhadas na seção de Créditos e Licenças).
 
 ### 9.3. Aviso Importante — Natureza Assistiva e Não Substituição de Acompanhamento Profissional (`#isencao-clinica`)
 **O VozViva é uma ferramenta tecnológica de apoio à Comunicação Aumentativa e Alternativa (CAA) e à inclusão cotidiana. Ele NÃO constitui dispositivo médico homologado, NÃO realiza diagnósticos clínicos e NÃO substitui a avaliação, o acompanhamento ou a prescrição individualizada de profissionais habilitados de Fonoaudiologia, Terapia Ocupacional, Psicologia, Pedagogia/Educação Especial ou Medicina.** Recomenda-se que a seleção de vocabulário e as estratégias de modelagem comunicativa sejam sempre que possível acompanhadas por profissionais especializados.
 
 ### 9.4. Fornecimento "No Estado em que se Encontra" (*As-Is*) e Segurança
-O software é disponibilizado gratuitamente *"no estado em que se encontra"* (*as-is*), na máxima extensão permitida pela legislação aplicável. Os recursos de **Modo Criança**, retenção de toque e orientação para fixação de tela (*Acesso Guiado* / *Fixar aplicativo*) são auxílios de usabilidade e **não substituem a supervisão presencial de um adulto responsável** nem devem ser utilizados como único meio de chamado em emergências médicas ou de segurança. O responsável é encarregado de guardar em local seguro a senha de seus arquivos de backup (`.assistivebackup`). Estes Termos são regidos pelas leis da República Federativa do Brasil.
+O software é disponibilizado gratuitamente *"no estado em que se encontra"* (*as-is*), na máxima extensão permitida pela legislação aplicável. Os recursos de **Modo Criança**, retenção de toque e orientação para fixação de tela (*Fixar aplicativo* / *Modo Quiosque*) são auxílios de usabilidade e **não substituem a supervisão presencial de um adulto responsável** nem devem ser utilizados como único meio de chamado em emergências médicas ou de segurança. O responsável é encarregado de guardar em local seguro a senha de seus arquivos de backup (`.assistivebackup`). Estes Termos são regidos pelas leis da República Federativa do Brasil.
 
 ---
 
@@ -107,7 +107,7 @@ O software é disponibilizado gratuitamente *"no estado em que se encontra"* (*a
 ## 🇺🇸 English — VozViva Privacy Policy
 
 ### Quick Summary (Plain Language)
-- **The installed VozViva app works 100% offline.** All communication boards, cards, family photos, voice recordings, and settings stay **exclusively on your own device**.
+- **The installed VozViva app works 100% offline.** All communication boards, sub-boards, cards, family photos, custom phrases, and settings stay **exclusively on your own device**.
 - **Zero personal data collection:** Regard Games **operates no data-collection servers**, requires no account registration, never asks for names, emails, phone numbers, or location, and has zero access to anything spoken or created in the app.
 - **Zero ads and zero trackers:** VozViva is **100% free**, with no advertising, no in-app purchases, and no third-party analytics or telemetry SDKs.
 - **Built for child protection:** **Child Mode** is completely isolated from the internet and blocks access to external links, editing tools, or settings without adult verification in **Caregiver Mode**.
@@ -118,15 +118,15 @@ This Privacy Policy explains how the **VozViva — Augmentative and Alternative 
 ### 2. Data Stored Locally on Your Device
 To provide personalized Augmentative and Alternative Communication (AAC), the app stores the following information **solely within your device's private local storage**:
 1. **Profiles, communication boards, and cards:** core and customized vocabulary, grid sizes, Fitzgerald Key colors, and visual/audio preferences;
-2. **Custom media (optional, created only in Caregiver Mode):** local photos or images (saved stripped of EXIF/GPS metadata) and voice recordings created by parents, caregivers, or clinicians;
+2. **Custom media (optional, created only in Caregiver Mode):** local photos or images selected by an adult (automatically saved stripped of EXIF/GPS metadata) and custom phrases spoken by the device's offline voice synthesis;
 3. **Accessibility and local security settings:** interface/speech language (`pt-BR`, `en`, `es`), Text-to-Speech (TTS) rate/pitch, touch hold/debounce settings, and the Caregiver Mode passcode (stored strictly as a local cryptographic hash).
 
 **Regard Games never receives, views, cloud-syncs, or shares any of this information.**
 
 ### 3. Operating System Permissions (Just-in-Time)
 VozViva operates fully without requiring invasive permissions:
-- **Text-to-Speech (TTS) & Audio:** uses the native offline voice engines built into your operating system (`Android`, `iOS`, `Windows`, or `Linux`), without sending spoken text to external servers.
-- **Camera, Photo Library, and Microphone (Optional):** requested **strictly on demand (*just-in-time*) inside Caregiver Mode** only when an adult chooses to take a photo or record custom audio for a communication card. If declined, the app continues to work normally with built-in symbols and synthesized speech.
+- **Text-to-Speech (TTS) & Audio:** uses the native offline voice engines built into your operating system (`Android`, `Windows`, or `Linux`; `Apple iOS/iPadOS` version currently unavailable), without sending spoken text to external servers.
+- **Local Photo and File Selection (Optional):** triggered **strictly on demand inside Caregiver Mode** via the operating system's secure file/photo picker when an adult chooses to add a device photo to a card (with automatic EXIF/GPS stripping) or import/export a backup (`.assistivebackup`). The app does **not** record audio via microphone and **never** requests microphone permission.
 - **No background or tracking permissions:** the app never requests GPS/location, contacts, phone/SMS, Bluetooth, advertising IDs (`AAID`/`IDFA`), or background tracking.
 
 ### 4. Optional Online Features (Caregiver Mode Only)
@@ -146,7 +146,7 @@ Our public website (`https://regardgames.github.io/vozviva/`) is a static site h
 
 ### 7. Full User Control, Retention, and Data Deletion
 Because all app data resides exclusively on your device, **you have immediate, complete control**:
-- You can edit or delete any profile, board, card, photo, or recording at any time in **Caregiver Mode**;
+- You can edit or delete any profile, board, card, or custom photo at any time in **Caregiver Mode**;
 - You can use **"Delete all local data"** in Caregiver Mode settings or uninstall the app to permanently erase all local records from your device.
 
 ### 8. Privacy Contact
@@ -159,16 +159,16 @@ For privacy questions or requests, please reach out via our official repository 
 ## 9. Terms of Use, Software License (EULA), and Clinical Disclaimer
 
 ### 9.1. Free End-User License Agreement (Proprietary Freeware)
-The **VozViva** application is owned by **Regard Games** (`DAYVID EMERSON SILVA FERREIRA CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA`, CNPJ `54.480.912/0001-37`). You are granted a **free, personal, non-exclusive, non-transferable, revocable license** to install and use the application on compatible `Android`, `iOS`, `Windows`, and `Linux` devices for personal, family, educational, or clinical support purposes. You may not sell, rent, sublicense, redistribute modified binaries, or charge any fee for access to VozViva, without prejudice to open-licensed symbol libraries governed by their respective licenses.
+The **VozViva** application is owned by **Regard Games** (`DAYVID EMERSON SILVA FERREIRA CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA`, CNPJ `54.480.912/0001-37`). You are granted a **free, personal, non-exclusive, non-transferable, revocable license** to install and use the application on compatible `Android`, `Windows`, and `Linux` devices (`Apple iOS/iPadOS` version currently unavailable) for personal, family, educational, or clinical support purposes. You may not sell, rent, sublicense, redistribute modified binaries, or charge any fee for access to VozViva, without prejudice to open-licensed symbol libraries governed by their respective licenses.
 
 ### 9.2. User-Created Content and Open Symbol Libraries
-Photos, voice recordings, and custom boards created by you remain your sole property. The **Mulberry Symbols** (`CC BY-SA`) and **ARASAAC** (`CC BY-NC-SA 4.0`) pictogram sets remain owned by their respective authors under their public licenses.
+Photos and custom boards created by you remain your sole property. The **Mulberry Symbols** (`CC BY-SA`) and **ARASAAC** (`CC BY-NC-SA 4.0`) pictogram sets remain owned by their respective authors under their public licenses.
 
 ### 9.3. Important Clinical, Medical, and Educational Disclaimer
 **VozViva is an assistive communication technology tool designed to support daily Augmentative and Alternative Communication (AAC). It is NOT a certified medical device, does NOT perform clinical diagnoses, and does NOT replace individualized assessment, therapy, or guidance from licensed Speech-Language Pathologists (SLPs), Occupational Therapists, Psychologists, Special Educators, or Physicians.**
 
 ### 9.4. "As-Is" Provision and Safety Notice
-The software is provided free of charge *"as is"*, to the maximum extent permitted by applicable law. **Child Mode**, touch hold settings, and OS screen-pinning guides (*Guided Access* / *App Pinning*) are usability aids and **do not replace active adult supervision**, nor should the app be relied upon as a sole emergency call system. Users are solely responsible for safeguarding their `.assistivebackup` passwords. These Terms are governed by the laws of the Federative Republic of Brazil.
+The software is provided free of charge *"as is"*, to the maximum extent permitted by applicable law. **Child Mode**, touch hold settings, and OS screen-pinning guides (*App Pinning* / *Kiosk Mode*) are usability aids and **do not replace active adult supervision**, nor should the app be relied upon as a sole emergency call system. Users are solely responsible for safeguarding their `.assistivebackup` passwords. These Terms are governed by the laws of the Federative Republic of Brazil.
 
 ---
 
@@ -190,7 +190,7 @@ The software is provided free of charge *"as is"*, to the maximum extent permitt
 ## 🇪🇸 Español — Política de Privacidad de VozViva
 
 ### Resumen Rápido (Lenguaje Claro)
-- **La aplicación VozViva instalada funciona 100% sin internet (offline).** Toda la comunicación, tableros, fotos familiares, grabaciones de voz y ajustes se guardan **exclusivamente en tu propio dispositivo**.
+- **La aplicación VozViva instalada funciona 100% sin internet (offline).** Toda la comunicación, tableros, subtableros, fotos familiares, frases personalizadas y ajustes se guardan **exclusivamente en tu propio dispositivo**.
 - **Cero recopilación de datos personales:** Regard Games **no tiene servidores de recolección de datos**, no pide crear cuentas, no solicita nombres, correos, teléfonos ni ubicación, y no tiene acceso a nada de lo que se dice o crea en la aplicación.
 - **Cero anuncios y cero rastreadores:** VozViva es **100% gratuita**, sin publicidad, sin compras dentro de la aplicación y sin herramientas de analítica o telemetría de terceros.
 - **Protección infantil integral:** El **Modo Niño** está totalmente aislado de internet y bloquea cualquier acceso a enlaces externos, edición o configuración sin la verificación de un adulto en el **Modo Responsable**.
@@ -201,15 +201,15 @@ Esta Política de Privacidad describe cómo la aplicación **VozViva — Platafo
 ### 2. Datos Almacenados Localmente en tu Dispositivo
 Para permitir la Comunicación Aumentativa y Alternativa (CAA) personalizada, la aplicación guarda **únicamente de forma local, en el almacenamiento privado de tu propio dispositivo**:
 1. **Perfiles, tableros y tarjetas de comunicación:** vocabulario esencial y personalizado, tamaños de cuadrícula, colores de la Clave de Fitzgerald y preferencias visuales/auditivas;
-2. **Medios personalizados (opcionales, creados solo en el Modo Responsable):** fotografías o imágenes locales (guardadas sin metadatos EXIF/GPS) y grabaciones de voz realizadas por la familia o el terapeuta;
+2. **Medios personalizados (opcionales, creados solo en el Modo Responsable):** fotografías o imágenes locales seleccionadas por el adulto (guardadas automáticamente sin metadatos EXIF/GPS) y frases personalizadas habladas por la síntesis de voz sin conexión del dispositivo;
 3. **Ajustes de accesibilidad y seguridad local:** idioma (`pt-BR`, `en`, `es`), velocidad/tono de síntesis de voz (TTS), tiempo de pulsación y el código PIN del Modo Responsable (guardado únicamente como hash criptográfico local).
 
 **Regard Games jamás recibe, visualiza, sincroniza en la nube ni comparte estos datos.**
 
 ### 3. Permisos del Sistema Operativo (Just-in-Time)
 VozViva funciona completamente sin requerir permisos invasivos:
-- **Síntesis de Voz (TTS) y Audio:** utiliza los motores de voz nativos ya integrados en tu sistema operativo (`Android`, `iOS`, `Windows` o `Linux`), sin enviar el texto hablado a servidores externos.
-- **Cámara, Galería de Fotos y Micrófono (Opcionales):** se solicitan **exclusivamente bajo demanda (*just-in-time*) dentro del Modo Responsable** solo cuando el adulto decide tomar una foto o grabar un audio personalizado para una tarjeta. Si se rechazan, la aplicación sigue funcionando normalmente con sus símbolos integrados y voz sintetizada.
+- **Síntesis de Voz (TTS) y Audio:** utiliza los motores de voz nativos sin conexión ya integrados en tu sistema operativo (`Android`, `Windows` o `Linux`; versión para `Apple iOS/iPadOS` no disponible por el momento), sin enviar el texto hablado a servidores externos.
+- **Selección de Fotos y Archivos Locales (Opcional):** se activa **exclusivamente bajo demanda dentro del Modo Responsable** mediante el selector seguro del sistema operativo cuando el adulto decide añadir una foto del dispositivo a una tarjeta (con eliminación automática de EXIF/GPS) o importar/exportar una copia (`.assistivebackup`). La aplicación **no** graba audio por micrófono ni solicita permiso de micrófono.
 - **Sin permisos ocultos:** la aplicación nunca solicita acceso a GPS/ubicación, contactos, teléfono/SMS, Bluetooth, identificadores publicitarios (`AAID`/`IDFA`) ni seguimiento en segundo plano.
 
 ### 4. Funciones en Línea Opcionales (Solo en Modo Responsable)
@@ -229,7 +229,7 @@ El sitio web institucional (`https://regardgames.github.io/vozviva/`) es estáti
 
 ### 7. Control Total, Retención y Eliminación de Datos
 Como todos los datos de la aplicación permanecen exclusivamente en tu dispositivo, **tienes control total e inmediato sobre ellos**:
-- Puedes editar o eliminar cualquier perfil, tablero, tarjeta, foto o grabación en cualquier momento desde el **Modo Responsable**;
+- Puedes editar o eliminar cualquier perfil, tablero, tarjeta o foto personalizada en cualquier momento desde el **Modo Responsable**;
 - Puedes usar la opción **"Borrar todos los datos locales"** en los ajustes del Modo Responsable o desinstalar la aplicación para eliminar definitivamente todos los registros locales.
 
 ### 8. Contacto de Privacidad
@@ -242,16 +242,16 @@ Si tienes dudas sobre esta Política de Privacidad, contáctanos a través de nu
 ## 9. Términos de Uso, Licencia de Software (EULA) y Aviso Clínico Importante
 
 ### 9.1. Licencia de Uso Gratuita (Software Propietario Gratuito)
-La aplicación **VozViva** es propiedad exclusiva de **Regard Games** (`DAYVID EMERSON SILVA FERREIRA CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA`, CNPJ `54.480.912/0001-37`). Se otorga al usuario final una licencia **gratuita, personal, no exclusiva, intransferible y revocable** para instalar y utilizar la aplicación en dispositivos compatibles (`Android`, `iOS`, `Windows` y `Linux`) con fines personales, familiares, educativos o de apoyo clínico. Queda prohibido vender, alquilar, sublicenciar, redistribuir versiones modificadas o cobrar a terceros por el acceso o descarga de VozViva, sin perjuicio de las bibliotecas de símbolos abiertas regidas por sus respectivas licencias.
+La aplicación **VozViva** es propiedad exclusiva de **Regard Games** (`DAYVID EMERSON SILVA FERREIRA CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA`, CNPJ `54.480.912/0001-37`). Se otorga al usuario final una licencia **gratuita, personal, no exclusiva, intransferible y revocable** para instalar y utilizar la aplicación en dispositivos compatibles (`Android`, `Windows` y `Linux`; versión para `Apple iOS/iPadOS` no disponible por el momento) con fines personales, familiares, educativos o de apoyo clínico. Queda prohibido vender, alquilar, sublicenciar, redistribuir versiones modificadas o cobrar a terceros por el acceso o descarga de VozViva, sin perjuicio de las bibliotecas de símbolos abiertas regidas por sus respectivas licencias.
 
 ### 9.2. Contenido Creado por el Usuario y Bibliotecas de Símbolos Abiertas
-Las fotos, grabaciones de voz y tableros personalizados creados por el usuario pertenecen íntegramente al usuario. Las colecciones de pictogramas **Mulberry Symbols** (`CC BY-SA`) y **ARASAAC** (`CC BY-NC-SA 4.0`) permanecen bajo la titularidad de sus respectivos autores y licencias públicas.
+Las fotos y tableros personalizados creados por el usuario pertenecen íntegramente al usuario. Las colecciones de pictogramas **Mulberry Symbols** (`CC BY-SA`) y **ARASAAC** (`CC BY-NC-SA 4.0`) permanecen bajo la titularidad de sus respectivos autores y licencias públicas.
 
 ### 9.3. Aviso Clínico, Médico y Educativo Importante
 **VozViva es una herramienta tecnológica de apoyo a la Comunicación Aumentativa y Alternativa (CAA) y a la inclusión diaria. NO es un dispositivo médico certificado, NO realiza diagnósticos clínicos y NO sustituye la evaluación, el acompañamiento ni la intervención individualizada de profesionales de Fonoaudiología / Logopedia, Terapia Ocupacional, Psicología, Educación Especial o Medicina.**
 
 ### 9.4. Provisión "Tal Cual" (*As-Is*) y Seguridad
-El software se proporciona de forma gratuita *"tal cual"* (*as-is*), en la máxima medida permitida por la ley aplicable. El **Modo Niño**, los ajustes de pulsación y las guías de fijación de pantalla (*Acceso Guiado* / *Fijar aplicación*) son ayudas de usabilidad y **no reemplazan la supervisión presencial de un adulto responsable**, ni deben utilizarse como único medio de llamada en emergencias médicas o de seguridad. El adulto responsable está a cargo de resguardar la contraseña de sus archivos `.assistivebackup`. Estos Términos se rigen por las leyes de la República Federativa del Brasil.
+El software se proporciona de forma gratuita *"tal cual"* (*as-is*), en la máxima medida permitida por la ley aplicable. El **Modo Niño**, los ajustes de pulsación y las guías de fijación de pantalla (*Fijar aplicación* / *Modo Quiosco*) son ayudas de usabilidad y **no reemplazan la supervisión presencial de un adulto responsable**, ni deben utilizarse como único medio de llamada en emergencias médicas o de seguridad. El adulto responsable está a cargo de resguardar la contraseña de sus archivos `.assistivebackup`. Estos Términos se rigen por las leyes de la República Federativa del Brasil.
 
 ---
 
