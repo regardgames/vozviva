@@ -12,10 +12,10 @@ O **VozViva** é uma plataforma gratuita e **100% offline** de **Comunicação A
 
 ### Destaques Principais
 - **100% Offline e Gratuito:** Funciona sem internet, sem cadastro, sem anúncios e sem compras no aplicativo.
-- **Privacidade Absoluta (LGPD Art. 14, COPPA, GDPR-K):** Zero coleta de dados pessoais. Todas as pranchas, fotos familiares e vozes personalizadas ficam exclusivamente no seu dispositivo.
+- **Privacidade Absoluta (LGPD Art. 14, COPPA, GDPR-K):** Zero coleta de dados pessoais. Todas as pranchas, subníveis, fotos familiares (com remoção automática de EXIF/GPS) e frases personalizadas faladas pela síntese de voz offline do aparelho ficam exclusivamente no seu dispositivo.
 - **Chave de Fitzgerald com Dupla Codificação Visual:** Categorias organizadas por cores semânticas, bordas e formas geométricas para facilitar a localização motora e visual.
-- **Modo Criança e Modo Responsável:** Isolamento seguro com bloqueio parental contra toques acidentais.
-- **Multiplataforma:** Disponível para **Android**, **iPhone e iPad (iOS)**, **Windows 10/11** e **Ubuntu / Linux**.
+- **Modo Criança e Modo Responsável:** Isolamento seguro com proteção por desafio matemático para adultos ou código PIN local de 4 dígitos (com chave de recuperação), grades de `2×2` a `5×6` (4 a 30 cartões por prancha) e Faixa de Cartões Fixos Base em todas as telas.
+- **Multiplataforma:** Disponível gratuitamente para **Android (`.apk`)**, **Windows 10/11 (`.zip` portátil)** e **Ubuntu / Linux (`.tar.gz`)** *(versão para Apple iOS / iPadOS ainda indisponível no momento)*.
 
 ---
 
@@ -25,13 +25,13 @@ O **VozViva** é uma plataforma gratuita e **100% offline** de **Comunicação A
 
 - **100% Offline & Free:** Works anywhere without internet, accounts, ads, or in-app purchases.
 - **Total Privacy (LGPD Art. 14, COPPA, GDPR-K):** Zero personal data collection.
-- **Multiplatform:** Available for **Android**, **iOS (iPhone & iPad)**, **Windows 10/11**, and **Ubuntu / Linux**.
+- **Multiplatform:** Available for **Android (`.apk`)**, **Windows 10/11 (`.zip` portable)**, and **Ubuntu / Linux (`.tar.gz`)** *(Apple iOS / iPadOS version currently unavailable)*.
 
 ---
 
 ## 🇪🇸 Español (`es`)
 
-**VozViva** es una plataforma gratuita y **100 % sin conexión de Comunicación Aumentativa y Alternativa (CAA)** creada por **Regard Games** para apoyar a niños, personas con necesidades complejas de comunicación, familias, fonoaudiólogos/logopedas, terapeutas ocupacionales y educadores.
+**VozViva** es una plataforma gratuita y **100 % sin conexión de Comunicación Aumentativa y Alternativa (CAA)** creada por **Regard Games** para apoyar a niños, personas con necesidades complejas de comunicación, familias, fonoaudiólogos/logopedas, terapeutas ocupacionales y educadores. Disponible gratuitamente para **Android (`.apk`)**, **Windows 10/11 (`.zip` portátil)** y **Ubuntu / Linux (`.tar.gz`)** *(versión para Apple iOS / iPadOS no disponible por el momento)*.
 
 ---
 

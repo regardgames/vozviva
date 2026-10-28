@@ -1,0 +1,3 @@
+d850a64aa2e5350033dd5cbbf2c18557462d5fdf197038aaf4d8c968d0c6bf79  vozviva-v1.0.2-release.apk
+795fba42835406d9653d286b38270a164cce68011fb84b8802f10a6f3a9e55d1  vozviva-v1.0.2-windows-x64-portable.zip
+2ae7f663ed81e57d62c97b3ede4e3bd365e77c3ae91d0a5372d4478c9be4264e  vozviva-v1.0.2-linux-x64-portable.tar.gz
