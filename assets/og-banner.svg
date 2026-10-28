@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="VozViva — Plataforma de Comunicação Aumentativa e Alternativa 100% Offline e Gratuita">
+  <rect width="1200" height="630" fill="#F6F5F0"/>
+  <rect x="36" y="36" width="1128" height="558" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+  <!-- Header Pill -->
+  <rect x="84" y="84" width="460" height="44" rx="22" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <circle cx="112" cy="106" r="7" fill="#059669"/>
+  <text x="132" y="112" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#047857">100% Offline • Gratuito • Zero Coleta de Dados</text>
+  <!-- Title -->
+  <text x="84" y="195" font-family="Inter, sans-serif" font-size="54" font-weight="800" fill="#0F172A">VozViva — CAA</text>
+  <text x="84" y="255" font-family="Inter, sans-serif" font-size="30" font-weight="600" fill="#334155">Toda pessoa tem direito a uma voz</text>
+  <text x="84" y="295" font-family="Inter, sans-serif" font-size="30" font-weight="600" fill="#334155">que funcione em qualquer lugar.</text>
+  <text x="84" y="360" font-family="Inter, sans-serif" font-size="22" font-weight="500" fill="#475569">Comunicação Aumentativa e Alternativa (PT-BR • EN • ES)</text>
+  <text x="84" y="395" font-family="Inter, sans-serif" font-size="22" font-weight="500" fill="#475569">Android • iPhone &amp; iPad • Windows 10/11 • Ubuntu/Linux</text>
+  <!-- Fitzgerald Sample Cards on Right -->
+  <g transform="translate(700, 100)">
+    <rect x="0" y="0" width="190" height="145" rx="18" fill="#FFFBEB" stroke="#D97706" stroke-width="4"/>
+    <text x="20" y="34" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="#B45309">● PESSOAS</text>
+    <text x="95" y="115" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#0F172A">EU QUERO</text>
+
+    <rect x="210" y="0" width="190" height="145" rx="18" fill="#ECFDF5" stroke="#059669" stroke-width="4"/>
+    <text x="230" y="34" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="#047857">▶ VERBOS</text>
+    <text x="305" y="115" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#0F172A">BEBER ÁGUA</text>
+
+    <rect x="0" y="165" width="190" height="145" rx="18" fill="#FFF7ED" stroke="#EA580C" stroke-width="4"/>
+    <text x="20" y="199" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="#C2410C">■ OBJETOS</text>
+    <text x="95" y="280" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#0F172A">COMIDA</text>
+
+    <rect x="210" y="165" width="190" height="145" rx="18" fill="#EFF6FF" stroke="#2563EB" stroke-width="4"/>
+    <text x="230" y="199" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="#1D4ED8">◆ EMOÇÕES</text>
+    <text x="305" y="280" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#0F172A">FELIZ</text>
+
+    <rect x="0" y="330" width="400" height="72" rx="16" fill="#047857"/>
+    <text x="200" y="375" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">🔊 FALAR FRASE AGORA</text>
+  </g>
+  <!-- Footer -->
+  <text x="84" y="535" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">Regard Games — Picos, Piauí, Brasil • regardgames.github.io/vozviva</text>
+</svg>

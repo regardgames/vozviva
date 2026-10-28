@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VozViva Logo">
+  <defs>
+    <linearGradient id="vvBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#0F3B9E"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#vvBg)" stroke="#93C5FD" stroke-width="2"/>
+  <!-- Speech Bubble Body -->
+  <path d="M14 16h36a4 4 0 0 1 4 4v20a4 4 0 0 1-4 4H29l-10 8v-8h-5a4 4 0 0 1-4-4V20a4 4 0 0 1 4-4z" fill="#F6F5F0"/>
+  <!-- Fitzgerald Mini Grid inside speech bubble -->
+  <rect x="18" y="21" width="8" height="7" rx="2" fill="#F59E0B"/>
+  <rect x="28" y="21" width="8" height="7" rx="2" fill="#10B981"/>
+  <rect x="38" y="21" width="8" height="7" rx="2" fill="#EA580C"/>
+  <!-- Soundwave smile / voice arc -->
+  <path d="M22 34c5 4 15 4 20 0" fill="none" stroke="#1D4ED8" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="20" cy="33" r="1.8" fill="#059669"/>
+  <circle cx="44" cy="33" r="1.8" fill="#059669"/>
+</svg>

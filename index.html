@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title">VozViva — Comunicação Aumentativa e Alternativa (CAA) Offline e Gratuita | Regard Games</title>
+  <meta name="description" data-i18n-attr="content:meta.description" content="Aplicativo gratuito e 100% offline de Comunicação Aumentativa e Alternativa (CAA) com síntese de voz, pranchas personalizáveis e privacidade total para crianças, famílias e terapeutas. Disponível para Android, iOS, Windows e Linux." />
+  <meta name="theme-color" content="#1D4ED8" />
+  <meta name="author" content="Regard Games — Picos, Piauí, Brasil" />
+  <link rel="canonical" href="https://regardgames.github.io/vozviva/" />
+  <link rel="alternate" hreflang="pt-BR" href="https://regardgames.github.io/vozviva/?lang=pt" />
+  <link rel="alternate" hreflang="en" href="https://regardgames.github.io/vozviva/?lang=en" />
+  <link rel="alternate" hreflang="es" href="https://regardgames.github.io/vozviva/?lang=es" />
+  <link rel="alternate" hreflang="x-default" href="https://regardgames.github.io/vozviva/" />
+
+  <!-- Open Graph & Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VozViva — Regard Games" />
+  <meta property="og:title" data-i18n-attr="content:meta.og_title" content="VozViva — Dê voz a cada momento, sem depender de internet" />
+  <meta property="og:description" data-i18n-attr="content:meta.og_description" content="Plataforma de Comunicação Aumentativa e Alternativa (CAA) 100% offline, sem anúncios e sem coleta de dados. Em Português, Inglês e Espanhol." />
+  <meta property="og:url" content="https://regardgames.github.io/vozviva/" />
+  <meta property="og:image" content="https://regardgames.github.io/vozviva/assets/og-banner.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" data-i18n-attr="content:meta.og_title" content="VozViva — Dê voz a cada momento, sem depender de internet" />
+  <meta name="twitter:description" data-i18n-attr="content:meta.og_description" content="Plataforma de Comunicação Aumentativa e Alternativa (CAA) 100% offline, sem anúncios e sem coleta de dados. Em Português, Inglês e Espanhol." />
+  <meta name="twitter:image" content="https://regardgames.github.io/vozviva/assets/og-banner.svg" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VozViva — CAA",
+    "applicationCategory": "EducationalApplication, MedicalApplication",
+    "operatingSystem": "Android, iOS, Windows 10/11, Ubuntu/Linux",
+    "inLanguage": ["pt-BR", "en", "es"],
+    "isAccessibleForFree": true,
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "BRL"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Regard Games",
+      "legalName": "DAYVID EMERSON SILVA FERREIRA CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA",
+      "taxID": "54.480.912/0001-37",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Picos",
+        "addressRegion": "PI",
+        "addressCountry": "BR"
+      },
+      "url": "https://regardgames.github.io/vozviva/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link" data-i18n="nav.skip_to_content">Pular para o conteúdo principal</a>
+
+  <!-- Topbar / Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#top" class="brand-link" aria-label="VozViva — Início">
+        <img src="assets/favicon.svg" alt="" class="brand-icon" width="42" height="42" />
+        <span class="brand-text-group">
+          <span class="brand-name">VozViva</span>
+          <span class="brand-tag" data-i18n="nav.brand_tag">CAA • 100% Offline</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação Principal" data-i18n-attr="aria-label:nav.aria_main">
+        <a href="#simulador" class="nav-link" data-i18n="nav.simulator">Simulador CAA</a>
+        <a href="#features" class="nav-link" data-i18n="nav.features">Recursos</a>
+        <a href="#audiences" class="nav-link" data-i18n="nav.audiences">Para Quem É</a>
+        <a href="#modes" class="nav-link" data-i18n="nav.modes">Modos de Uso</a>
+        <a href="#privacy" class="nav-link" data-i18n="nav.privacy">Privacidade</a>
+        <a href="#faq" class="nav-link" data-i18n="nav.faq">Dúvidas</a>
+      </nav>
+
+      <div class="header-controls">
+        <!-- Seletor de Idioma -->
+        <div class="control-pill-group" role="group" aria-label="Selecionar idioma" data-i18n-attr="aria-label:nav.lang_group_label">
+          <button type="button" class="ctrl-btn lang-btn" data-lang="pt" aria-pressed="true" title="Português (Brasil)">PT</button>
+          <button type="button" class="ctrl-btn lang-btn" data-lang="en" aria-pressed="false" title="English">EN</button>
+          <button type="button" class="ctrl-btn lang-btn" data-lang="es" aria-pressed="false" title="Español">ES</button>
+        </div>
+
+        <!-- Seletor de Tema -->
+        <div class="control-pill-group" role="group" aria-label="Selecionar tema visual" data-i18n-attr="aria-label:nav.theme_group_label">
+          <button type="button" class="ctrl-btn theme-btn" data-theme-val="light" aria-pressed="true" data-i18n-attr="title:nav.theme_light_title,aria-label:nav.theme_light_title" title="Tema Claro Calmo">☀️</button>
+          <button type="button" class="ctrl-btn theme-btn" data-theme-val="dark" aria-pressed="false" data-i18n-attr="title:nav.theme_dark_title,aria-label:nav.theme_dark_title" title="Tema Escuro Confortável">🌙</button>
+          <button type="button" class="ctrl-btn theme-btn" data-theme-val="high-contrast" aria-pressed="false" data-i18n-attr="title:nav.theme_hc_title,aria-label:nav.theme_hc_title" title="Alto Contraste WCAG AAA">◐</button>
+        </div>
+
+        <a href="#download" class="btn btn-primary btn-compact header-cta-desktop" data-i18n="nav.download">Baixar Grátis</a>
+      </div>
+
+      <button type="button" class="mobile-menu-toggle" id="mobile-menu-btn" aria-expanded="false" aria-controls="mobile-drawer" data-i18n-attr="aria-label:nav.menu_toggle_label">
+        <span aria-hidden="true">☰</span>
+        <span data-i18n="nav.menu_btn">Menu</span>
+      </button>
+    </div>
+
+    <div class="mobile-drawer" id="mobile-drawer" aria-label="Menu móvel">
+      <div class="container">
+        <div class="mobile-drawer-links">
+          <a href="#simulador" class="nav-link" data-i18n="nav.simulator">Simulador CAA</a>
+          <a href="#features" class="nav-link" data-i18n="nav.features">Recursos</a>
+          <a href="#audiences" class="nav-link" data-i18n="nav.audiences">Para Quem É</a>
+          <a href="#modes" class="nav-link" data-i18n="nav.modes">Modos de Uso</a>
+          <a href="#privacy" class="nav-link" data-i18n="nav.privacy">Privacidade</a>
+          <a href="#faq" class="nav-link" data-i18n="nav.faq">Dúvidas</a>
+          <a href="privacy-policy.html" class="nav-link" data-i18n="footer.privacy_link">Política de Privacidade</a>
+          <a href="#download" class="btn btn-primary" data-i18n="nav.download">Baixar Grátis</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section + Interactive CAA Simulator -->
+    <section class="hero-section" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy-col">
+          <div class="hero-badge">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.badge">100% Offline • Gratuito • Zero Coleta de Dados</span>
+          </div>
+          <h1 class="hero-title" data-i18n="hero.title">Toda pessoa tem direito a uma voz que funcione em qualquer lugar.</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">O VozViva é uma plataforma gratuita de Comunicação Aumentativa e Alternativa (CAA) criada para crianças, famílias, fonoaudiólogos, terapeutas ocupacionais e educadores. Funciona sem internet, respeita o tempo de cada pessoa e protege integralmente a privacidade infantil.</p>
+
+          <div class="hero-cta-row">
+            <a href="#download" class="btn btn-primary" id="hero-primary-cta" data-i18n="hero.cta_primary">Baixar Grátis Agora</a>
+            <a href="#simulador" class="btn btn-secondary" data-i18n="hero.cta_secondary">Testar Prancha Interativa</a>
+          </div>
+
+          <!-- Platform Quick Pills -->
+          <div class="hero-platform-pills" role="list" aria-label="Plataformas suportadas" data-i18n-attr="aria-label:hero.pills_aria">
+            <a href="#download-android" class="platform-pill" data-os-pill="android" role="listitem">
+              <span>🤖 <span data-i18n="hero.pill_android">Android (.apk / Play)</span></span>
+              <span class="pill-meta">38,4 MB</span>
+            </a>
+            <a href="#download-ios" class="platform-pill" data-os-pill="ios" role="listitem">
+              <span>🍎 <span data-i18n="hero.pill_ios">iPhone &amp; iPad (iOS)</span></span>
+              <span class="pill-meta">App Store</span>
+            </a>
+            <a href="#download-windows" class="platform-pill" data-os-pill="windows" role="listitem">
+              <span>🪟 <span data-i18n="hero.pill_windows">Windows 10/11 (.zip)</span></span>
+              <span class="pill-meta">24,8 MB</span>
+            </a>
+            <a href="#download-linux" class="platform-pill" data-os-pill="linux" role="listitem">
+              <span>🐧 <span data-i18n="hero.pill_linux">Ubuntu/Linux (.tar.gz)</span></span>
+              <span class="pill-meta">22,1 MB</span>
+            </a>
+          </div>
+
+          <div class="hero-trust-strip">
+            <span class="trust-chip" data-i18n="hero.trust_1">🔒 Zero Contas ou Rastreadores</span>
+            <span class="trust-chip" data-i18n="hero.trust_2">🗣️ PT-BR • EN • ES Nativos</span>
+            <span class="trust-chip" data-i18n="hero.trust_3">🎨 Chave de Fitzgerald + WCAG AAA</span>
+          </div>
+        </div>
+
+        <!-- Interactive CAA Board Simulator -->
+        <div class="caa-simulator-shell" id="simulador" role="region" aria-labelledby="sim-title">
+          <div class="sim-topbar">
+            <div class="sim-title-wrap">
+              <span class="sim-badge-live" data-i18n="sim.live_badge">▶ Simulador CAA ao Vivo</span>
+              <h2 class="sim-heading" id="sim-title" data-i18n="sim.title">Experimente formar uma frase</h2>
+            </div>
+            <span class="pill-meta" id="sim-voice-indicator" data-i18n="sim.voice_ready">Voz Sintetizada (TTS)</span>
+          </div>
+
+          <!-- SentenceStrip (Faixa de Frase) -->
+          <div class="sentence-strip-container">
+            <div class="sentence-strip-items" id="sentence-strip-items" role="status" aria-live="polite" aria-atomic="false">
+              <span class="sentence-placeholder" id="sentence-placeholder" data-i18n="sim.placeholder">Toque nos cartões abaixo para montar sua frase...</span>
+            </div>
+            <div class="sentence-strip-actions">
+              <button type="button" class="btn btn-speak" id="sim-btn-speak" data-i18n-attr="aria-label:sim.speak_aria">
+                <span aria-hidden="true">🔊</span>
+                <span data-i18n="sim.btn_speak">Falar Frase</span>
+              </button>
+              <button type="button" class="btn btn-secondary" id="sim-btn-backspace" data-i18n-attr="aria-label:sim.backspace_aria">
+                <span aria-hidden="true">⌫</span>
+                <span data-i18n="sim.btn_backspace">Apagar</span>
+              </button>
+              <button type="button" class="btn btn-secondary" id="sim-btn-clear" data-i18n-attr="aria-label:sim.clear_aria">
+                <span aria-hidden="true">🗑️</span>
+                <span data-i18n="sim.btn_clear">Limpar</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="speech-status-banner" id="speech-status-banner" role="status" aria-live="polite">
+            <span id="speech-status-text" data-i18n="sim.status_idle">Toque em qualquer cartão para adicionar e ouvir na hora.</span>
+          </div>
+
+          <!-- Category Filter Tabs (Fitzgerald Key + Dual Encoding) -->
+          <div class="caa-category-tabs" role="tablist" aria-label="Categorias da Prancha CAA" data-i18n-attr="aria-label:sim.tabs_aria">
+            <button type="button" class="cat-tab-btn is-active" role="tab" aria-selected="true" data-cat-filter="all" data-i18n="sim.cat_all">⊞ Essencial (Todas)</button>
+            <button type="button" class="cat-tab-btn" role="tab" aria-selected="false" data-cat-filter="people" data-i18n="sim.cat_people">● Pessoas</button>
+            <button type="button" class="cat-tab-btn" role="tab" aria-selected="false" data-cat-filter="verbs" data-i18n="sim.cat_verbs">▶ Verbos</button>
+            <button type="button" class="cat-tab-btn" role="tab" aria-selected="false" data-cat-filter="nouns" data-i18n="sim.cat_nouns">■ Necessidades</button>
+            <button type="button" class="cat-tab-btn" role="tab" aria-selected="false" data-cat-filter="descriptors" data-i18n="sim.cat_descriptors">◆ Emoções</button>
+            <button type="button" class="cat-tab-btn" role="tab" aria-selected="false" data-cat-filter="social" data-i18n="sim.cat_social">★ Sociais</button>
+            <button type="button" class="cat-tab-btn" role="tab" aria-selected="false" data-cat-filter="urgent" data-i18n="sim.cat_urgent">▲ Urgência</button>
+          </div>
+
+          <!-- Interactive Grid of CAA Cards -->
+          <div class="caa-cards-grid" id="caa-cards-grid" role="group" aria-label="Cartões de comunicação" data-i18n-attr="aria-label:sim.grid_aria">
+            <!-- Rendered dynamically by landing.js -->
+          </div>
+
+          <!-- Simulator Toolbar Footer -->
+          <div class="sim-toolbar-footer">
+            <button type="button" class="sim-toggle-btn" id="sim-toggle-tap-speak" aria-pressed="true" data-i18n="sim.toggle_tap_speak">🔊 Falar ao tocar: Ativo</button>
+            <button type="button" class="sim-toggle-btn" id="sim-toggle-uppercase" aria-pressed="true" data-i18n="sim.toggle_uppercase">🔠 CAIXA ALTA: Ativa</button>
+            <button type="button" class="sim-toggle-btn" id="sim-toggle-speed" aria-pressed="false" data-speed="1.0" data-i18n="sim.toggle_speed">🐢 Velocidade: 1.0x</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Why VozViva & Fitzgerald Key Dual Visual Encoding -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" data-i18n="why.eyebrow">Design Assistivo &amp; Base Clínica</span>
+          <h2 class="section-title" data-i18n="why.title">Por que o VozViva transforma a comunicação no dia a dia?</h2>
+          <p class="section-subtitle" data-i18n="why.subtitle">Projetado com rigor de acessibilidade cognitiva e motora para funcionar em casa, na escola, na clínica ou no transporte — sem surpresas e sem depender de sinal.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">✈️</div>
+            <h3 data-i18n="why.card1_title">100% Offline de Ponta a Ponta</h3>
+            <p data-i18n="why.card1_desc">A voz de uma pessoa nunca pode cair porque o Wi-Fi falhou. Pranchas, pictogramas, fotos da família e síntese de voz funcionam integralmente em modo avião.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">🎨</div>
+            <h3 data-i18n="why.card2_title">Chave de Fitzgerald com Dupla Codificação</h3>
+            <p data-i18n="why.card2_desc">Cada categoria gramatical combina cor semântica com um símbolo geométrico exclusivo (● ▶ ■ ◆ ★ ▲), garantindo reconhecimento mesmo para pessoas com daltonismo.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">📸</div>
+            <h3 data-i18n="why.card3_title">Fotos Reais e Voz da Própria Família</h3>
+            <p data-i18n="why.card3_desc">Além da biblioteca de pictogramas inclusa, você pode fotografar o brinquedo favorito, a escola ou os familiares e gravar áudios acolhedores diretamente pelo aparelho.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">🖐️</div>
+            <h3 data-i18n="why.card4_title">Acessibilidade Motora e Sensorial</h3>
+            <p data-i18n="why.card4_desc">Grades ajustáveis (de 2 até 24 cartões por tela), filtro contra toques repetidos involuntários, tempo de retenção configurável e tema de Alto Contraste WCAG AAA.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">🌍</div>
+            <h3 data-i18n="why.card5_title">Trilíngue Nativo (PT-BR, EN, ES)</h3>
+            <p data-i18n="why.card5_desc">7 pranchas-modelo iniciais cuidadosamente adaptadas para o vocabulário essencial do Português Brasileiro, Inglês e Espanhol neutro pan-hispânico.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">🔐</div>
+            <h3 data-i18n="why.card6_title">Backup Local Criptografado</h3>
+            <p data-i18n="why.card6_desc">Exporte e transfira pranchas personalizadas entre Android, iOS, Windows e Linux usando arquivos protegidos por senha com criptografia forte AES-256-GCM.</p>
+          </article>
+        </div>
+
+        <!-- Fitzgerald Key Legend Strip -->
+        <div class="fitzgerald-legend-grid" aria-label="Legenda da Chave de Fitzgerald">
+          <div class="fitz-legend-item" style="background: var(--fitz-people-bg); border-color: var(--fitz-people-border); color: var(--fitz-people-text);">
+            <strong data-i18n="fitz.people_title">● Pessoas &amp; Pronomes</strong>
+            <span data-i18n="fitz.people_examples">Eu, Você, Mamãe, Papai, Professora</span>
+          </div>
+          <div class="fitz-legend-item" style="background: var(--fitz-verbs-bg); border-color: var(--fitz-verbs-border); color: var(--fitz-verbs-text);">
+            <strong data-i18n="fitz.verbs_title">▶ Verbos &amp; Ações</strong>
+            <span data-i18n="fitz.verbs_examples">Quero, Ir, Comer, Beber, Brincar, Parar</span>
+          </div>
+          <div class="fitz-legend-item" style="background: var(--fitz-nouns-bg); border-color: var(--fitz-nouns-border); color: var(--fitz-nouns-text);">
+            <strong data-i18n="fitz.nouns_title">■ Substantivos &amp; Objetos</strong>
+            <span data-i18n="fitz.nouns_examples">Água, Comida, Banheiro, Casa, Brinquedo</span>
+          </div>
+          <div class="fitz-legend-item" style="background: var(--fitz-descriptors-bg); border-color: var(--fitz-descriptors-border); color: var(--fitz-descriptors-text);">
+            <strong data-i18n="fitz.desc_title">◆ Emoções &amp; Estados</strong>
+            <span data-i18n="fitz.desc_examples">Feliz, Triste, Cansado, Mais, Gostoso</span>
+          </div>
+          <div class="fitz-legend-item" style="background: var(--fitz-social-bg); border-color: var(--fitz-social-border); color: var(--fitz-social-text);">
+            <strong data-i18n="fitz.social_title">★ Sociais &amp; Rápidas</strong>
+            <span data-i18n="fitz.social_examples">Sim, Não, Obrigado, Por favor, Oi</span>
+          </div>
+          <div class="fitz-legend-item" style="background: var(--fitz-urgent-bg); border-color: var(--fitz-urgent-border); color: var(--fitz-urgent-text);">
+            <strong data-i18n="fitz.urgent_title">▲ Urgência &amp; Apoio</strong>
+            <span data-i18n="fitz.urgent_examples">Ajuda, Dói, Barulho Alto, Pausa</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Dedicated Audiences (Families vs Clinicians/Educators) -->
+    <section class="section section-alt" id="audiences">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" data-i18n="audiences.eyebrow">Construído em Conjunto</span>
+          <h2 class="section-title" data-i18n="audiences.title">Feito para quem comunica e para quem apoia todos os dias</h2>
+          <p class="section-subtitle" data-i18n="audiences.subtitle">Simples nos primeiros 3 minutos para a família em casa e completo para a prática clínica e pedagógica.</p>
+        </div>
+
+        <div class="grid-2">
+          <!-- Families & Caregivers -->
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">🏡</div>
+            <h3 data-i18n="audiences.family_title">Para Famílias, Mães, Pais e Cuidadores</h3>
+            <p data-i18n="audiences.family_desc">Comece a usar imediatamente sem preencher cadastros burocráticos. Escolha o idioma, ajuste o tamanho dos cartões e dê autonomia para seu filho expressar desejos, sentimentos e necessidades.</p>
+            <ul class="check-list">
+              <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="audiences.family_b1">Pronto para usar em menos de 3 minutos com 7 pranchas do cotidiano (Refeições, Higiene, Família, Emoções, Brincadeiras e Rotina).</span></li>
+              <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="audiences.family_b2">Personalize cartões com fotos reais da casa e grave a voz de familiares para tornar a comunicação ainda mais afetiva.</span></li>
+              <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="audiences.family_b3">100% gratuito para sempre: sem mensalidades caras, sem anúncios que distraiam a criança e sem compras acidentais.</span></li>
+            </ul>
+          </article>
+
+          <!-- Clinicians & Educators -->
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">🩺</div>
+            <h3 data-i18n="audiences.pro_title">Para Fonoaudiólogos, Terapeutas Ocupacionais e Educadores</h3>
+            <p data-i18n="audiences.pro_desc">Fundamentado nas melhores práticas de Comunicação Aumentativa e Alternativa (CAA), priorizando vocabulário essencial (*Core Words*), consistência motora e modelagem pelo parceiro de comunicação.</p>
+            <ul class="check-list">
+              <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="audiences.pro_b1">Consistência espacial (planejamento motor): oculte ou exiba cartões progressivamente mantendo a posição fixa das palavras já aprendidas.</span></li>
+              <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="audiences.pro_b2">Múltiplos perfis locais independentes no mesmo tablet ou computador, ideal para atendimentos clínicos e salas de recursos multifuncionais.</span></li>
+              <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="audiences.pro_b3">Compatível com símbolos Mulberry (inclusos offline) e busca opcional no catálogo público ARASAAC com atribuição automática.</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Child Mode vs Caregiver/Therapist Mode Interactive Demo -->
+    <section class="section" id="modes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" data-i18n="modes.eyebrow">Arquitetura de Dois Modos</span>
+          <h2 class="section-title" data-i18n="modes.title">Separação Segura: Modo Criança e Modo Responsável</h2>
+          <p class="section-subtitle" data-i18n="modes.subtitle">O ambiente de comunicação é calmo, previsível e livre de distrações. As ferramentas de edição ficam protegidas por verificação de adulto e PIN.</p>
+        </div>
+
+        <div class="modes-tabs-bar" role="tablist" aria-label="Alternar demonstração de modos">
+          <button type="button" class="mode-tab-btn" role="tab" id="tab-mode-child" aria-selected="true" aria-controls="panel-mode-child" data-mode-target="child" data-i18n="modes.tab_child">🧒 Modo Criança (Comunicador)</button>
+          <button type="button" class="mode-tab-btn" role="tab" id="tab-mode-caregiver" aria-selected="false" aria-controls="panel-mode-caregiver" data-mode-target="caregiver" data-i18n="modes.tab_caregiver">🔐 Modo Responsável / Terapeuta</button>
+        </div>
+
+        <div class="mode-panel is-active" id="panel-mode-child" role="tabpanel" aria-labelledby="tab-mode-child">
+          <div class="grid-2">
+            <div>
+              <h3 data-i18n="modes.child_title">Foco 100% na Comunicação Sem Distrações</h3>
+              <p data-i18n="modes.child_desc">No Modo Criança, toda a tela é dedicada às pranchas de comunicação e à faixa de construção de frases. Não há menus administrativos expostos, links para a internet ou risco de apagar cartões por engano.</p>
+              <ul class="check-list">
+                <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="modes.child_b1">Botões amplos de alto contraste com resposta de voz imediata ao tocar.</span></li>
+                <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="modes.child_b2">Zero conexões de rede: nenhuma janela externa ou notificação interrompe a conversa.</span></li>
+                <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="modes.child_b3">Saída protegida por toque longo de 3 segundos + desafio de adulto e código PIN.</span></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <strong data-i18n="modes.child_box_title">🛡️ Proteção Ativa no Modo Criança</strong>
+              <p data-i18n="modes.child_box_desc">Compatível com Acesso Guiado (iPad/iPhone), Fixação de Tela (Android) e Modo Quiosque (Windows/Linux) para evitar saídas acidentais do aplicativo durante o uso.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mode-panel" id="panel-mode-caregiver" role="tabpanel" aria-labelledby="tab-mode-caregiver">
+          <div class="grid-2">
+            <div>
+              <h3 data-i18n="modes.caregiver_title">Personalização Completa para Família e Clínica</h3>
+              <p data-i18n="modes.caregiver_desc">Ao desbloquear o Modo Responsável com seu PIN local, você acessa o editor visual de pranchas, ajustes finos de voz e acessibilidade motora, além de exportação segura de backups.</p>
+              <ul class="check-list">
+                <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="modes.caregiver_b1">Crie ou edite cartões com símbolos Mulberry, busca opcional no ARASAAC, fotos da câmera (com remoção automática de GPS/EXIF) e gravação de voz.</span></li>
+                <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="modes.caregiver_b2">Ajuste a densidade da grade (2x1 até 6x4), velocidade e tom da voz TTS, caixa alta e tempo de retenção de toque.</span></li>
+                <li><span class="check-icon" aria-hidden="true">✓</span><span data-i18n="modes.caregiver_b3">Exporte e restaure pacotes criptografados (.assistivebackup) para levar as pranchas da clínica para o celular da família.</span></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <strong data-i18n="modes.caregiver_box_title">⚙️ Controle Local Absoluto</strong>
+              <p data-i18n="modes.caregiver_desc_2">Permissões de câmera e microfone são solicitadas apenas no momento em que o adulto clica em criar uma mídia personalizada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Absolute Privacy & Ethical Commitment -->
+    <section class="section section-alt" id="privacy">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" data-i18n="priv.eyebrow">Privacidade Infantil em Primeiro Lugar</span>
+          <h2 class="section-title" data-i18n="priv.title">Privacidade Absoluta por Arquitetura (LGPD, COPPA e GDPR-K)</h2>
+          <p class="section-subtitle" data-i18n="priv.subtitle">A comunicação de uma criança é íntima e inviolável. Por isso, o VozViva foi construído sem servidores de coleta: o que acontece no seu aparelho permanece exclusivamente no seu aparelho.</p>
+        </div>
+
+        <div class="grid-4">
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">🚫</div>
+            <h3 data-i18n="priv.c1_title">Zero Coleta de Dados</h3>
+            <p data-i18n="priv.c1_desc">Não pedimos nome, e-mail, CPF, telefone ou localização. Não coletamos histórico de frases faladas nem fotos das crianças.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">🧹</div>
+            <h3 data-i18n="priv.c2_title">Fotos Limpas de GPS/EXIF</h3>
+            <p data-i18n="priv.c2_desc">Quando você adiciona uma foto familiar a um cartão, o VozViva remove automaticamente metadados ocultos de localização antes de salvar no aparelho.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">🛡️</div>
+            <h3 data-i18n="priv.c3_title">Sem Anúncios ou Rastreadores</h3>
+            <p data-i18n="priv.c3_desc">Zero SDKs publicitários, zero pixels de rastreamento e zero telemetria oculta. Conformidade rigorosa com o Art. 14 da LGPD (Brasil), COPPA e GDPR-K.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon-badge" aria-hidden="true">⚖️</div>
+            <h3 data-i18n="priv.c4_title">Transparência Jurídica e Clínica</h3>
+            <p data-i18n="priv.c4_desc">Documentação completa em Português, Inglês e Espanhol com Política de Privacidade, Termos de Uso, Aviso Clínico e Licenças Abertas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Multiplatform Download Hub & Public Metrics (#download) -->
+    <section class="section" id="download">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" data-i18n="platforms.eyebrow">Multiplataforma &amp; Gratuito</span>
+          <h2 class="section-title" data-i18n="platforms.title">Disponível para celulares, tablets e computadores</h2>
+          <p class="section-subtitle" data-i18n="platforms.subtitle">Baixe gratuitamente para o seu sistema operacional e verifique a integridade com o hash SHA-256 oficial.</p>
+        </div>
+
+        <!-- Public Download Metrics Panel (#download-metrics) -->
+        <div class="metrics-board" id="download-metrics" role="region" aria-labelledby="metrics-title">
+          <div class="metrics-header">
+            <div>
+              <strong id="metrics-title" data-i18n="metrics.title">Placar Público de Downloads (GitHub Releases)</strong>
+            </div>
+            <div class="metrics-status">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              <span id="metrics-status-label" data-i18n="metrics.status_live">Transparência pública sem cookies (api.github.com)</span>
+            </div>
+          </div>
+          <div class="metrics-grid">
+            <div class="metric-cell">
+              <span class="metric-label" data-i18n="metrics.total">∑ Total Acumulado</span>
+              <span class="metric-value" id="metric-total-val">0</span>
+            </div>
+            <div class="metric-cell">
+              <span class="metric-label"><span style="color:#2563EB">●</span> Android (.apk)</span>
+              <span class="metric-value" id="metric-android-val">0</span>
+            </div>
+            <div class="metric-cell">
+              <span class="metric-label"><span style="color:#059669">★</span> iOS (iPhone/iPad)</span>
+              <span class="metric-value" id="metric-ios-val">App Store</span>
+            </div>
+            <div class="metric-cell">
+              <span class="metric-label"><span style="color:#EA580C">◆</span> Windows (.zip)</span>
+              <span class="metric-value" id="metric-windows-val">0</span>
+            </div>
+            <div class="metric-cell">
+              <span class="metric-label"><span style="color:#D97706">▲</span> Ubuntu/Linux (.tar.gz)</span>
+              <span class="metric-value" id="metric-linux-val">0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Platform Download Cards -->
+        <div class="grid-2">
+          <!-- Android -->
+          <article class="download-card" id="download-android" data-os-card="android">
+            <div>
+              <span class="recommended-os-ribbon" data-i18n="platforms.recommended_badge">★ Recomendado para seu dispositivo</span>
+              <h3>🤖 <span data-i18n="platforms.android_title">Android (Smartphones e Tablets)</span></h3>
+              <p data-i18n="platforms.android_desc">Compatível com Android 8.0 ou superior. Ideal para tablets de uso diário em casa, na escola e na clínica. Pacote assinado digitalmente (38,4 MB).</p>
+              <div class="sha-box">
+                <strong>SHA-256 (vozviva-v0.1.0-android.apk):</strong><br />
+                <span id="sha-android">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</span>
+              </div>
+            </div>
+            <div class="hero-cta-row" style="margin-bottom:0">
+              <a href="https://github.com/regardgames/vozviva/releases" target="_blank" rel="noopener noreferrer" class="btn btn-primary dl-track-btn" data-dl-os="android" data-i18n="platforms.btn_apk">Baixar .APK Direto</a>
+              <button type="button" class="btn btn-secondary copy-sha-btn" data-sha-target="sha-android" data-i18n="platforms.btn_copy_sha">Copiar SHA-256</button>
+            </div>
+          </article>
+
+          <!-- iOS -->
+          <article class="download-card" id="download-ios" data-os-card="ios">
+            <div>
+              <span class="recommended-os-ribbon" data-i18n="platforms.recommended_badge">★ Recomendado para seu dispositivo</span>
+              <h3>🍎 <span data-i18n="platforms.ios_title">iPhone e iPad (iOS / iPadOS)</span></h3>
+              <p data-i18n="platforms.ios_desc">Compatível com iOS e iPadOS 14.0 ou superior. Integração perfeita com o Acesso Guiado nativo da Apple para uso focado na comunicação.</p>
+              <div class="sha-box">
+                <strong data-i18n="platforms.ios_store_note">Distribuição Oficial Verificada:</strong><br />
+                <span data-i18n="platforms.ios_store_sub">Pacote assinado via Apple App Store / TestFlight Oficial (Sem Coleta de Dados).</span>
+              </div>
+            </div>
+            <div class="hero-cta-row" style="margin-bottom:0">
+              <a href="https://github.com/regardgames/vozviva/releases" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="platforms.btn_ios">Ver na App Store / Releases</a>
+            </div>
+          </article>
+
+          <!-- Windows -->
+          <article class="download-card" id="download-windows" data-os-card="windows">
+            <div>
+              <span class="recommended-os-ribbon" data-i18n="platforms.recommended_badge">★ Recomendado para seu dispositivo</span>
+              <h3>🪟 <span data-i18n="platforms.windows_title">Windows 10 e 11 (64 bits)</span></h3>
+              <p data-i18n="platforms.windows_desc">Versão portátil (.zip — 24,8 MB) e instalador para notebooks, computadores escolares e telas sensíveis ao toque, com navegação completa por teclado.</p>
+              <div class="sha-box">
+                <strong>SHA-256 (vozviva-v0.1.0-windows-x64.zip):</strong><br />
+                <span id="sha-windows">8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4</span>
+              </div>
+            </div>
+            <div class="hero-cta-row" style="margin-bottom:0">
+              <a href="https://github.com/regardgames/vozviva/releases" target="_blank" rel="noopener noreferrer" class="btn btn-primary dl-track-btn" data-dl-os="windows" data-i18n="platforms.btn_windows">Baixar Windows (.zip)</a>
+              <button type="button" class="btn btn-secondary copy-sha-btn" data-sha-target="sha-windows" data-i18n="platforms.btn_copy_sha">Copiar SHA-256</button>
+            </div>
+          </article>
+
+          <!-- Linux -->
+          <article class="download-card" id="download-linux" data-os-card="linux">
+            <div>
+              <span class="recommended-os-ribbon" data-i18n="platforms.recommended_badge">★ Recomendado para seu dispositivo</span>
+              <h3>🐧 <span data-i18n="platforms.linux_title">Ubuntu / Linux (64 bits)</span></h3>
+              <p data-i18n="platforms.linux_desc">Pacote portátil (.tar.gz — 22,1 MB) compatível com Ubuntu 22.04+, Debian, Mint e Fedora, com integração ao Speech Dispatcher local.</p>
+              <div class="sha-box">
+                <strong>SHA-256 (vozviva-v0.1.0-linux-x64.tar.gz):</strong><br />
+                <span id="sha-linux">2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae</span>
+              </div>
+            </div>
+            <div class="hero-cta-row" style="margin-bottom:0">
+              <a href="https://github.com/regardgames/vozviva/releases" target="_blank" rel="noopener noreferrer" class="btn btn-primary dl-track-btn" data-dl-os="linux" data-i18n="platforms.btn_linux">Baixar Linux (.tar.gz)</a>
+              <button type="button" class="btn btn-secondary copy-sha-btn" data-sha-target="sha-linux" data-i18n="platforms.btn_copy_sha">Copiar SHA-256</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: FAQ -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" data-i18n="faq.eyebrow">Perguntas Frequentes</span>
+          <h2 class="section-title" data-i18n="faq.title">Tire suas dúvidas sobre o VozViva</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary data-i18n="faq.q1">O VozViva é realmente 100% gratuito e sem mensalidades?</summary>
+            <div class="faq-body" data-i18n="faq.a1">Sim. O VozViva é totalmente gratuito para famílias, cuidadores, escolas, clínicas e profissionais. Não existem assinaturas pagas, bloqueios de vocabulário nem anúncios dentro do aplicativo.</div>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.q2">Preciso de conexão com a internet para a criança se comunicar?</summary>
+            <div class="faq-body" data-i18n="faq.a2">Não. O aplicativo instalado funciona 100% offline, inclusive em modo avião. Todas as pranchas iniciais, símbolos Mulberry, fotos da família, áudios gravados e a síntese de voz do aparelho funcionam sem internet.</div>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.q3">O VozViva substitui o acompanhamento com fonoaudiólogo ou terapeuta?</summary>
+            <div class="faq-body" data-i18n="faq.a3">Não. O VozViva é uma ferramenta tecnológica de apoio à Comunicação Aumentativa e Alternativa (CAA). Ele não realiza diagnósticos clínicos nem substitui a avaliação e o acompanhamento individualizado de profissionais de Fonoaudiologia, Terapia Ocupacional, Psicologia, Educação Especial ou Medicina.</div>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.q4">Como funcionam os créditos dos símbolos Mulberry e ARASAAC?</summary>
+            <div class="faq-body" data-i18n="faq.a4">A biblioteca base offline utiliza Mulberry Symbols (licença CC BY-SA 2.0 UK / 4.0). Além disso, no Modo Responsável, o adulto pode pesquisar pictogramas opcionais na biblioteca pública ARASAAC (Sergio Palao / Governo de Aragão — licença CC BY-NC-SA 4.0) para salvá-los localmente.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#top" class="brand-link">
+            <img src="assets/favicon.svg" alt="" class="brand-icon" width="40" height="40" />
+            <span class="brand-text-group">
+              <span class="brand-name">VozViva</span>
+              <span class="brand-tag" data-i18n="nav.brand_tag">CAA • 100% Offline</span>
+            </span>
+          </a>
+          <p style="color: var(--text-secondary); margin-top: 12px;" data-i18n="footer.about_text">Desenvolvido por Regard Games (Picos, Piauí, Brasil) com foco em acessibilidade, inclusão comunicativa e proteção absoluta à privacidade infantil.</p>
+          <p style="color: var(--text-muted); font-size: 0.85rem;" data-i18n="footer.clinical_disclaimer">Aviso importante: O VozViva é uma ferramenta de apoio à Comunicação Aumentativa e Alternativa (CAA) e não substitui o acompanhamento individualizado de profissionais de fonoaudiologia, terapia ocupacional, psicologia, pedagogia ou medicina.</p>
+        </div>
+
+        <div>
+          <h3 style="margin-top:0; font-size: 1rem;" data-i18n="footer.col_legal">Documentação Legal &amp; Ética</h3>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html" data-i18n="footer.privacy_link">Política de Privacidade (LGPD/COPPA/GDPR)</a></li>
+            <li><a href="privacy-policy.html#termos" data-i18n="footer.terms_link">Termos de Uso e Licença (EULA)</a></li>
+            <li><a href="privacy-policy.html#isencao-clinica" data-i18n="footer.disclaimer_link">Isenção de Responsabilidade Clínica</a></li>
+            <li><a href="privacy-policy.html#licencas" data-i18n="footer.licenses_link">Créditos e Licenças (Mulberry &amp; ARASAAC)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 style="margin-top:0; font-size: 1rem;" data-i18n="footer.col_links">Links Oficiais</h3>
+          <ul class="footer-links">
+            <li><a href="#simulador" data-i18n="nav.simulator">Simulador CAA</a></li>
+            <li><a href="#download" data-i18n="nav.download">Baixar Grátis</a></li>
+            <li><a href="https://github.com/regardgames/vozviva" target="_blank" rel="noopener noreferrer" data-i18n="footer.repo_link"> Portal &amp; Releases no GitHub</a></li>
+            <li><a href="https://github.com/regardgames/vozviva/issues" target="_blank" rel="noopener noreferrer" data-i18n="footer.support_link">Canal de Suporte e Acessibilidade</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="border-top: 1px solid var(--border-default); padding-top: 18px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; font-size: 0.85rem; color: var(--text-secondary);">
+        <span data-i18n="footer.copyright">© 2026 Regard Games — Picos, Piauí, Brasil. Todos os direitos reservados.</span>
+        <span>Mulberry Symbols (CC BY-SA) • ARASAAC (CC BY-NC-SA 4.0)</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="landing.js"></script>
+</body>
+</html>
