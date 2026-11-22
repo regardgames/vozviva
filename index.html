@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title data-i18n="meta.title">VozViva — Comunicação Aumentativa e Alternativa (CAA) Offline e Gratuita | Regard Games</title>
-  <meta name="description" data-i18n-attr="content:meta.description" content="Aplicativo gratuito e 100% offline de Comunicação Aumentativa e Alternativa (CAA) com síntese de voz, pranchas personalizáveis e privacidade total para crianças, famílias e terapeutas. Disponível para Android, Windows e Linux (versão para Apple iOS/iPadOS indisponível no momento)." />
+  <meta name="description" data-i18n-attr="content:meta.description" content="Aplicativo gratuito e 100% offline de Comunicação Aumentativa e Alternativa (CAA) com síntese de voz, pranchas personalizáveis e privacidade total para crianças, famílias e terapeutas. Disponível para Android, Windows e Linux. iOS: indisponível por enquanto." />
   <meta name="theme-color" content="#1D4ED8" />
   <meta name="author" content="Regard Games — Picos, Piauí, Brasil" />
   <link rel="canonical" href="https://regardgames.github.io/vozviva/" />
@@ -146,10 +146,10 @@
               <span>🤖 <span data-i18n="hero.pill_android">Android (.apk / Play)</span></span>
               <span class="pill-meta">64,5 MB</span>
             </a>
-            <a href="#download-ios" class="platform-pill" data-os-pill="ios" role="listitem">
-              <span>🍎 <span data-i18n="hero.pill_ios">iPhone &amp; iPad (iOS)</span></span>
-              <span class="pill-meta" data-i18n="hero.pill_ios_meta">Indisponível no momento</span>
-            </a>
+            <div class="platform-pill is-unavailable" data-os-pill="ios" role="listitem">
+              <span><span aria-hidden="true">🍎</span> <span data-i18n="hero.pill_ios">iPhone &amp; iPad (iOS)</span></span>
+              <span class="pill-meta" data-i18n="hero.pill_ios_meta">Indisponível por enquanto</span>
+            </div>
             <a href="#download-windows" class="platform-pill" data-os-pill="windows" role="listitem">
               <span>🪟 <span data-i18n="hero.pill_windows">Windows 10/11 (.zip)</span></span>
               <span class="pill-meta">14,7 MB</span>
@@ -459,7 +459,7 @@
             </div>
             <div class="metric-cell">
               <span class="metric-label"><span style="color:#059669">★</span> iOS (iPhone/iPad)</span>
-              <span class="metric-value" id="metric-ios-val" data-i18n="metrics.ios_status" style="font-size:1.05rem;">Indisponível</span>
+              <span class="metric-value" id="metric-ios-val" data-i18n="metrics.ios_status" style="font-size:1.05rem;">Indisponível por enquanto</span>
             </div>
             <div class="metric-cell">
               <span class="metric-label"><span style="color:#EA580C">◆</span> Windows (.zip)</span>
@@ -472,7 +472,7 @@
           </div>
         </div>
 
-        <!-- 4 Platform Download Cards -->
+        <!-- Platform Download Cards -->
         <div class="grid-2">
           <!-- Android -->
           <article class="download-card" id="download-android" data-os-card="android">
@@ -491,18 +491,11 @@
             </div>
           </article>
 
-          <!-- iOS -->
-          <article class="download-card" id="download-ios" data-os-card="ios">
+          <!-- iOS: sem download; mensagem informativa (VOZ-087) -->
+          <article class="download-card is-unavailable" id="download-ios" data-os-card="ios">
             <div>
-              <h3>🍎 <span data-i18n="platforms.ios_title">iPhone e iPad (Apple iOS / iPadOS) — Indisponível</span></h3>
-              <p data-i18n="platforms.ios_desc">A versão para dispositivos Apple (iPhone e iPad) ainda não está disponível na App Store nem no TestFlight. No momento, o VozViva está disponível gratuitamente para Android, Windows e Linux.</p>
-              <div class="sha-box">
-                <strong data-i18n="platforms.ios_store_note">Status na Apple App Store:</strong><br />
-                <span data-i18n="platforms.ios_store_sub">Ainda indisponível para iPhone e iPad (sem previsão de lançamento na App Store no momento).</span>
-              </div>
-            </div>
-            <div class="hero-cta-row" style="margin-bottom:0">
-              <button type="button" class="btn btn-secondary" disabled aria-disabled="true" data-i18n="platforms.btn_ios" style="opacity:0.65; cursor:not-allowed;">Indisponível para Apple no momento</button>
+              <h3><span aria-hidden="true">🍎</span> <span data-i18n="platforms.ios_title">iPhone e iPad (iOS): indisponível por enquanto</span></h3>
+              <p data-i18n="platforms.ios_desc">Não há versão do VozViva para iPhone e iPad por enquanto. O app está disponível gratuitamente para Android, Windows e Linux.</p>
             </div>
           </article>
 

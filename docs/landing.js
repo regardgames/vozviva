@@ -10,7 +10,7 @@
   var I18N = {
     pt: {
       'meta.title': 'VozViva — Comunicação Aumentativa e Alternativa (CAA) Offline e Gratuita | Regard Games',
-      'meta.description': 'Aplicativo gratuito e 100% offline de Comunicação Aumentativa e Alternativa (CAA) com síntese de voz, pranchas personalizáveis e privacidade total para crianças, famílias e terapeutas. Disponível para Android, Windows e Linux (versão para Apple iOS/iPadOS indisponível no momento).',
+      'meta.description': 'Aplicativo gratuito e 100% offline de Comunicação Aumentativa e Alternativa (CAA) com síntese de voz, pranchas personalizáveis e privacidade total para crianças, famílias e terapeutas. Disponível para Android, Windows e Linux. iOS: indisponível por enquanto.',
       'meta.og_title': 'VozViva — Dê voz a cada momento, sem depender de internet',
       'meta.og_description': 'Plataforma de Comunicação Aumentativa e Alternativa (CAA) 100% offline, sem anúncios e sem coleta de dados. Em Português, Inglês e Espanhol.',
       'nav.skip_to_content': 'Pular para o conteúdo principal',
@@ -38,7 +38,7 @@
       'hero.pills_aria': 'Plataformas suportadas',
       'hero.pill_android': 'Android (.apk / Play)',
       'hero.pill_ios': 'iPhone & iPad (iOS)',
-      'hero.pill_ios_meta': 'Indisponível no momento',
+      'hero.pill_ios_meta': 'Indisponível por enquanto',
       'hero.pill_windows': 'Windows 10/11 (.zip)',
       'hero.pill_linux': 'Ubuntu/Linux (.tar.gz)',
       'hero.trust_1': '🔒 Zero Contas ou Rastreadores',
@@ -149,18 +149,15 @@
       'metrics.title': 'Placar Público de Downloads (GitHub Releases)',
       'metrics.status_live': 'Transparência pública sem cookies (api.github.com)',
       'metrics.total': '∑ Total Acumulado',
-      'metrics.ios_status': 'Indisponível',
+      'metrics.ios_status': 'Indisponível por enquanto',
       'platforms.recommended_badge': '★ Recomendado para seu dispositivo',
       'platforms.android_title': 'Android (Smartphones e Tablets)',
       'platforms.android_desc': 'Compatível com Android 8.0 ou superior. Ideal para tablets de uso diário em casa, na escola e na clínica. Pacote assinado digitalmente v1.0.3+4 (64,9 MB).',
       'platforms.btn_apk': 'Baixar .APK Direto',
       'platforms.btn_copy_sha': 'Copiar SHA-256',
       'platforms.btn_copied_sha': '✓ Hash Copiado!',
-      'platforms.ios_title': 'iPhone e iPad (Apple iOS / iPadOS) — Indisponível',
-      'platforms.ios_desc': 'A versão para dispositivos Apple (iPhone e iPad) ainda não está disponível na App Store nem no TestFlight. No momento, o VozViva está disponível gratuitamente para Android, Windows e Linux.',
-      'platforms.ios_store_note': 'Status na Apple App Store:',
-      'platforms.ios_store_sub': 'Ainda indisponível para iPhone e iPad (sem previsão de lançamento na App Store no momento).',
-      'platforms.btn_ios': 'Indisponível para Apple no momento',
+      'platforms.ios_title': 'iPhone e iPad (iOS): indisponível por enquanto',
+      'platforms.ios_desc': 'Não há versão do VozViva para iPhone e iPad por enquanto. O app está disponível gratuitamente para Android, Windows e Linux.',
       'platforms.windows_title': 'Windows 10 e 11 (64 bits)',
       'platforms.windows_desc': 'Pacote portátil v1.0.3+4 (.zip — 14,8 MB) para notebooks, computadores escolares e telas sensíveis ao toque, com navegação completa por teclado e síntese de voz offline.',
       'platforms.btn_windows': 'Baixar Windows (.zip)',
@@ -199,7 +196,7 @@
 
   I18N.en = {
     'meta.title': 'VozViva — Free & 100% Offline Augmentative and Alternative Communication (AAC) | Regard Games',
-    'meta.description': 'Free, 100% offline Augmentative and Alternative Communication (AAC) app with voice synthesis, customizable boards, and complete privacy for children, families, and therapists. Available for Android, Windows, and Linux (Apple iOS/iPadOS version currently unavailable).',
+    'meta.description': 'Free, 100% offline Augmentative and Alternative Communication (AAC) app with voice synthesis, customizable boards, and complete privacy for children, families, and therapists. Available for Android, Windows, and Linux. iOS: unavailable for now.',
     'meta.og_title': 'VozViva — Give voice to every moment, without relying on the internet',
     'meta.og_description': '100% offline Augmentative and Alternative Communication (AAC) platform with zero ads and zero data collection. In Portuguese, English, and Spanish.',
     'nav.skip_to_content': 'Skip to main content',
@@ -227,7 +224,7 @@
     'hero.pills_aria': 'Supported platforms',
     'hero.pill_android': 'Android (.apk / Play)',
     'hero.pill_ios': 'iPhone & iPad (iOS)',
-    'hero.pill_ios_meta': 'Currently Unavailable',
+    'hero.pill_ios_meta': 'Unavailable for now',
     'hero.pill_windows': 'Windows 10/11 (.zip)',
     'hero.pill_linux': 'Ubuntu/Linux (.tar.gz)',
     'hero.trust_1': '🔒 Zero Accounts or Trackers',
@@ -338,18 +335,15 @@
     'metrics.title': 'Public Download Counter (GitHub Releases)',
     'metrics.status_live': 'Cookie-free public transparency (api.github.com)',
     'metrics.total': '∑ Total Downloads',
-    'metrics.ios_status': 'Unavailable',
+    'metrics.ios_status': 'Unavailable for now',
     'platforms.recommended_badge': '★ Recommended for your device',
     'platforms.android_title': 'Android (Smartphones & Tablets)',
     'platforms.android_desc': 'Compatible with Android 8.0 or higher. Ideal for daily tablets at home, school, and clinic. Digitally signed package v1.0.3+4 (64.9 MB).',
     'platforms.btn_apk': 'Download Direct .APK',
     'platforms.btn_copy_sha': 'Copy SHA-256',
     'platforms.btn_copied_sha': '✓ Hash Copied!',
-    'platforms.ios_title': 'iPhone & iPad (Apple iOS / iPadOS) — Unavailable',
-    'platforms.ios_desc': 'The version for Apple devices (iPhone and iPad) is not yet available on the App Store or TestFlight. Currently, VozViva is available for free on Android, Windows, and Linux.',
-    'platforms.ios_store_note': 'Apple App Store Status:',
-    'platforms.ios_store_sub': 'Currently unavailable for iPhone and iPad (no App Store release date scheduled yet).',
-    'platforms.btn_ios': 'Currently Unavailable for Apple',
+    'platforms.ios_title': 'iPhone & iPad (iOS): unavailable for now',
+    'platforms.ios_desc': 'There is no VozViva version for iPhone and iPad for now. The app is available free of charge for Android, Windows, and Linux.',
     'platforms.windows_title': 'Windows 10 & 11 (64-bit)',
     'platforms.windows_desc': 'Portable package v1.0.3+4 (.zip — 14.8 MB) for laptops, school computers, and touchscreens, with full keyboard navigation and offline voice synthesis.',
     'platforms.btn_windows': 'Download Windows (.zip)',
@@ -386,7 +380,7 @@
 
   I18N.es = {
     'meta.title': 'VozViva — Comunicación Aumentativa y Alternativa (CAA) Gratis y 100% Sin Internet | Regard Games',
-    'meta.description': 'Aplicación gratuita y 100% sin conexión de Comunicación Aumentativa y Alternativa (CAA) con síntesis de voz, tableros personalizables y privacidad total para niños, familias y terapeutas. Disponible para Android, Windows y Linux (versión para Apple iOS/iPadOS no disponible por el momento).',
+    'meta.description': 'Aplicación gratuita y 100% sin conexión de Comunicación Aumentativa y Alternativa (CAA) con síntesis de voz, tableros personalizables y privacidad total para niños, familias y terapeutas. Disponible para Android, Windows y Linux. iOS: no disponible por ahora.',
     'meta.og_title': 'VozViva — Da voz a cada momento, sin depender de internet',
     'meta.og_description': 'Plataforma de Comunicación Aumentativa y Alternativa (CAA) 100% sin internet, sin anuncios y sin recopilación de datos. En Portugués, Inglés y Español.',
     'nav.skip_to_content': 'Saltar al contenido principal',
@@ -525,18 +519,15 @@
     'metrics.title': 'Marcador Público de Descargas (GitHub Releases)',
     'metrics.status_live': 'Transparencia pública sin cookies (api.github.com)',
     'metrics.total': '∑ Total Acumulado',
-    'metrics.ios_status': 'No disponible',
+    'metrics.ios_status': 'No disponible por ahora',
     'platforms.recommended_badge': '★ Recomendado para tu dispositivo',
     'platforms.android_title': 'Android (Teléfonos y Tabletas)',
     'platforms.android_desc': 'Compatible con Android 8.0 o superior. Ideal para tabletas de uso diario en casa, escuela y clínica. Paquete firmado digitalmente v1.0.3+4 (64,9 MB).',
     'platforms.btn_apk': 'Descargar .APK Directo',
     'platforms.btn_copy_sha': 'Copiar SHA-256',
     'platforms.btn_copied_sha': '✓ ¡Hash Copiado!',
-    'platforms.ios_title': 'iPhone y iPad (Apple iOS / iPadOS) — No disponible',
-    'platforms.ios_desc': 'La versión para dispositivos Apple (iPhone y iPad) aún no está disponible en App Store ni en TestFlight. Por el momento, VozViva está disponible gratuitamente para Android, Windows y Linux.',
-    'platforms.ios_store_note': 'Estado en Apple App Store:',
-    'platforms.ios_store_sub': 'Aún no disponible para iPhone y iPad (sin fecha prevista de lanzamiento en App Store por el momento).',
-    'platforms.btn_ios': 'No disponible para Apple por ahora',
+    'platforms.ios_title': 'iPhone y iPad (iOS): no disponible por ahora',
+    'platforms.ios_desc': 'Por ahora no hay versión de VozViva para iPhone y iPad. La app está disponible gratis para Android, Windows y Linux.',
     'platforms.windows_title': 'Windows 10 y 11 (64 bits)',
     'platforms.windows_desc': 'Paquete portátil v1.0.3+4 (.zip — 14,8 MB) para portátiles, computadoras escolares y pantallas táctiles, con navegación completa por teclado y síntesis de voz sin conexión.',
     'platforms.btn_windows': 'Descargar Windows (.zip)',
@@ -905,7 +896,8 @@
   function detectUserOS() {
     var ua = (navigator.userAgent || '').toLowerCase();
     var detected = 'android';
-    if (ua.indexOf('android') !== -1) detected = 'android';
+    if (/iphone|ipad|ipod/.test(ua)) detected = 'none';
+    else if (ua.indexOf('android') !== -1) detected = 'android';
     else if (ua.indexOf('win') !== -1) detected = 'windows';
     else if (ua.indexOf('linux') !== -1) detected = 'linux';
 

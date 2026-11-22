@@ -1713,3 +1713,20 @@ a:hover {
   padding: 18px;
   margin: 16px 0;
 }
+
+/* VOZ-087: plataforma indisponivel (sem link, sem botao; o sinal e o texto, nao so a cor) */
+.platform-pill.is-unavailable {
+  border-style: dashed;
+  cursor: default;
+}
+.platform-pill.is-unavailable:hover {
+  border-color: var(--border-default);
+  background-color: var(--bg-surface);
+}
+.platform-pill.is-unavailable .pill-meta {
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.download-card.is-unavailable {
+  border-style: dashed;
+}
