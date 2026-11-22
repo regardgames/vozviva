@@ -2,15 +2,15 @@
   <rect width="1200" height="630" fill="#F6F5F0"/>
   <rect x="36" y="36" width="1128" height="558" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
   <!-- Header Pill -->
-  <rect x="84" y="84" width="460" height="44" rx="22" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <rect x="84" y="84" width="530" height="44" rx="22" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
   <circle cx="112" cy="106" r="7" fill="#059669"/>
-  <text x="132" y="112" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#047857">100% Offline • Gratuito • Zero Coleta de Dados</text>
+  <text x="132" y="112" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#047857">100% Offline • Gratuito • Sem Conta e Sem Anúncios</text>
   <!-- Title -->
   <text x="84" y="195" font-family="Inter, sans-serif" font-size="54" font-weight="800" fill="#0F172A">VozViva — CAA</text>
   <text x="84" y="255" font-family="Inter, sans-serif" font-size="30" font-weight="600" fill="#334155">Toda pessoa tem direito a uma voz</text>
   <text x="84" y="295" font-family="Inter, sans-serif" font-size="30" font-weight="600" fill="#334155">que funcione em qualquer lugar.</text>
   <text x="84" y="360" font-family="Inter, sans-serif" font-size="22" font-weight="500" fill="#475569">Comunicação Aumentativa e Alternativa (PT-BR • EN • ES)</text>
-  <text x="84" y="395" font-family="Inter, sans-serif" font-size="22" font-weight="500" fill="#475569">Android • iPhone &amp; iPad • Windows 10/11 • Ubuntu/Linux</text>
+  <text x="84" y="395" font-family="Inter, sans-serif" font-size="22" font-weight="500" fill="#475569">Android • Windows 10/11 • Ubuntu/Linux</text>
   <!-- Fitzgerald Sample Cards on Right -->
   <g transform="translate(700, 100)">
     <rect x="0" y="0" width="190" height="145" rx="18" fill="#FFFBEB" stroke="#D97706" stroke-width="4"/>
