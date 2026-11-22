@@ -9,14 +9,29 @@
 
 > **Aviso de correção (2026-11-22, VozViva 1.0.3):** a imagem `screenshots-tablet-10/04-tablet10-temas-wcag-aaa-e-backup-criptografado-2560x1600.png` foi retirada do site porque trazia texto embutido com afirmações técnicas e de conformidade inexatas (nome de cifra, "zero-knowledge" e selo de conformidade legal). Deve ser regerada (ux-design) com o texto aprovado. Os textos de copy abaixo foram atualizados para a redação aprovada.
 >
-> **Imagens que AINDA têm texto inexato e NÃO devem ser publicadas até serem regeradas (nenhuma foi alterada ou removida nesta etapa):**
-> - `screenshots-phone/05-temas-acessiveis-wcag-aaa-offline-1080x1920.png`: "Backup AES-256/AES-256-GCM", "Zero Coleta", "entre Android, iOS, Windows e Linux", "100% Privado".
-> - `feature-graphic-1024x500.png`: "Zero Coleta de Dados", "iPhone & iPad".
-> - `screenshots-tablet-10/03-tablet10-editor-pranchas-e-parental-gate-2560x1600.png`: "Perfis Locais", "PIN SHA-256", "Rotina Visual", perfil fictício de criança com idade e diagnóstico.
+> **Imagens retiradas do site em 2026-11-22:** as três imagens listadas na seção 0 abaixo foram removidas (continuam no histórico do git) e devem ser regeradas com capturas do app 1.1.0.
 >
-> **Não revistas:** `screenshots-phone/01` a `04`, `screenshots-tablet-7/*` e `screenshots-tablet-10/01` e `02` (e os ícones). Só use após revisão.
+> **Revisão das demais imagens (2026-11-22):** ver a seção 0 e o handoff `2026-11-22-dev-web-retirar-imagens.md`. Os ícones, `phone/01` e `tablet-10/01` não têm texto inexato; as outras estão marcadas como **candidatas a regerar** (valores técnicos a conferir, texto de privacidade amplo, defeitos visuais). Nenhuma delas foi alterada ou removida.
 
 ---
+
+## 0. Retiradas em 2026-11-22: regerar com capturas do app 1.1.0
+
+Usuário aprovou em 2026-11-22. Arquivos removidos de `docs/store-assets/` (recuperáveis pelo histórico do git; hashes SHA-256 do arquivo antigo abaixo). **Não republicar os arquivos antigos.** As novas imagens devem ser capturas reais do app 1.1.0 (ux-design), com texto aprovado por ux-writing e revisão do advogado-digital.
+
+| Arquivo retirado | SHA-256 (antigo) | O que a versão nova deve mostrar | O que NÃO pode dizer |
+| :--- | :--- | :--- | :--- |
+| `screenshots-phone/05-temas-acessiveis-wcag-aaa-offline-1080x1920.png` | `ce854660efbafebc9e51a8c73daa1400c593e629fa659000dddb26a100f29200` | Temas visuais (claro, escuro, alto contraste) e, se couber, o backup em arquivo `.assistivebackup` com senha, na redação aprovada da política. Android. | "AES-256" / "AES-256-GCM"; "Zero Coleta"; "100% Privado"; "LGPD & COPPA"; backup "entre Android, iOS, Windows e Linux" (backup só no mesmo aparelho/arquivo); qualquer menção a iOS. |
+| `feature-graphic-1024x500.png` | `f53b4498a60165fd0ee72f61b63c1ee3f88385a8684261b07fff7a4bca8bf321` | Marca VozViva, uma frase curta verdadeira (sem conta, sem anúncios, sem rastreadores; funciona sem internet) e as plataformas realmente disponíveis (Android, Windows, Linux). **A imagem de destaque é exigida pela Google Play: precisa de um novo desenho antes do envio da ficha.** | "Zero Coleta de Dados"; "iPhone & iPad" ou qualquer menção a iOS (indisponível); "AES-256"; "Perfis Locais" (só na 1.1.0, e só se já estiver publicado). |
+| `screenshots-tablet-10/03-tablet10-editor-pranchas-e-parental-gate-2560x1600.png` | `b089523e0f6e58b3738ee3d4d7f38f2825fa6b3fbc4c14a93f24ae1895137ffb` (conferido pelo arquivo antigo no histórico) | Editor de pranchas e Modo Responsável protegido por PIN, com dados fictícios neutros. Perfis locais só se a 1.1.0 estiver publicada e com o texto aprovado. | "Múltiplos Perfis Locais" antes da 1.1.0; "PIN SHA-256" (o PIN usa PBKDF2); "Rotina Visual" (não existe); perfil fictício de criança com idade e diagnóstico (ex.: "Lucas (7 anos, TEA)"); "AES-256"; "Zero Coleta". |
+
+### Marcação das demais imagens (candidatas a regerar)
+
+Detalhe imagem por imagem no handoff. Resumo: **exatas** (sem texto inexato) `icons/*`, `play-store-icon`, `app-store-icon` (nome do arquivo menciona a App Store, mas o iOS está indisponível: não enviar à Apple), `screenshots-phone/01`, `screenshots-tablet-10/01` (só corrigir a contagem "14 Core Words + 6 Pastas" para 15 + 5 na legenda).
+**Candidatas a regerar:** `screenshots-phone/02`, `03`, `04`, `screenshots-tablet-7/02`, `03`, `04`, `screenshots-tablet-10/02` (metas de desempenho "< 20 ms/4 ms/3 ms" sem medição; valores de debounce/retenção que diferem do padrão do código; "100% Local / Zero Internet" amplo; busca opcional ARASAAC é online e precisa constar na política; termo técnico interno `SPEAK_OR_COMPOSE`; texto cortado em `tablet-10/02`). Tratar como **não publicar na ficha da loja** até revisão. Todas são composições ilustrativas, não capturas reais do app.
+
+---
+
 
 ## 1. Tabela de Verificação Técnica e Checksums (`SHA-256`) — Ativos de Loja (`docs/store-assets/`)
 
@@ -27,19 +42,16 @@ Todos os arquivos PNG de loja foram gerados e validados no modo **RGB de 24 bits
 | **Vetor Fonte** | `icons/vozviva-app-icon.svg` | Escalável (`512x512` viewBox) | SVG Vetorial | 4.8 KB | `a88241d46bb4637db10c54d12eb9b90e4a52028630784e57bd6251137927ab85` |
 | **Ícone Play Store** | `play-store-icon-512x512.png` | `512 × 512 px` | PNG 24-bit RGB | 63.4 KB (`64.933 B`) | `8f69eb8b74df07b7099558bd635010d6b7fea972cf3ac3bf92571e250ac9470e` |
 | **Ícone App Store** | `app-store-icon-1024x1024.png` | `1024 × 1024 px` | PNG 24-bit RGB | 126.5 KB (`129.538 B`) | `ab11c8959528aaa47fa930c2dee314479bc6a3b1738a3bbcd7935697e468d10b` |
-| **Feature Graphic** | `feature-graphic-1024x500.png` | `1024 × 500 px` | PNG 24-bit RGB | 187.6 KB (`192.100 B`) | `f53b4498a60165fd0ee72f61b63c1ee3f88385a8684261b07fff7a4bca8bf321` |
 | **Phone #01** | `screenshots-phone/01-comunicador-caa-fitzgerald-1080x1920.png` | `1080 × 1920 px` (9:16) | PNG 24-bit RGB | 121.2 KB (`124.122 B`) | `fff1000d779af4d7361594c54789aec84a10b01831fcc291de834dfe0505baf1` |
 | **Phone #02** | `screenshots-phone/02-busca-instantanea-offline-fts5-1080x1920.png` | `1080 × 1920 px` (9:16) | PNG 24-bit RGB | 124.5 KB (`127.513 B`) | `33b5f20d7ac186dc7f6c668d2afa32fadc3d9d92b7dd8ced7353f1572e37be26` |
 | **Phone #03** | `screenshots-phone/03-modo-crianca-alvos-amplos-1080x1920.png` | `1080 × 1920 px` (9:16) | PNG 24-bit RGB | 119.1 KB (`121.961 B`) | `95e52aa3d2c20808d2004adbdfd53d1e5db18b1ef65aca763d38a0b2f4fb8586` |
 | **Phone #04** | `screenshots-phone/04-modo-responsavel-parental-gate-editor-1080x1920.png` | `1080 × 1920 px` (9:16) | PNG 24-bit RGB | 133.5 KB (`136.745 B`) | `a3c3f9a340f119a6552aa1db6e220253ab0f208ccb852ac9441cb2612dc17480` |
-| **Phone #05** | `screenshots-phone/05-temas-acessiveis-wcag-aaa-offline-1080x1920.png` | `1080 × 1920 px` (9:16) | PNG 24-bit RGB | 140.0 KB (`143.383 B`) | `ce854660efbafebc9e51a8c73daa1400c593e629fa659000dddb26a100f29200` |
 | **Tablet 7" #01** | `screenshots-tablet-7/01-tablet7-prancha-caa-ampla-1920x1200.png` | `1920 × 1200 px` (16:10) | PNG 24-bit RGB | 125.9 KB (`128.873 B`) | `8403ff711b0786257269bbacccf86fa12f216b8401cf63cb468c19f93e8bf833` |
 | **Tablet 7" #02** | `screenshots-tablet-7/02-tablet7-subpranchas-e-busca-offline-1920x1200.png` | `1920 × 1200 px` (16:10) | PNG 24-bit RGB | 158.1 KB (`161.891 B`) | `e090715f046ee6eff4117b29f26dafdff0144c05c0e7a66dbd6ef12549753049` |
 | **Tablet 7" #03** | `screenshots-tablet-7/03-tablet7-estudio-modo-responsavel-split-1920x1200.png` | `1920 × 1200 px` (16:10) | PNG 24-bit RGB | 176.3 KB (`180.557 B`) | `565efb5c9445d26cee64ee24d8a220f831cfab84246e85bce112d6d0e7103be0` |
 | **Tablet 7" #04** | `screenshots-tablet-7/04-tablet7-acessibilidade-alto-contraste-aaa-1920x1200.png` | `1920 × 1200 px` (16:10) | PNG 24-bit RGB | 160.0 KB (`163.856 B`) | `2c385b5819b17c30de24443b70158bd38f0335a0495a8ffe8db787ff1fc609d4` |
 | **Tablet 10" #01** | `screenshots-tablet-10/01-tablet10-comunicador-caa-grade-completa-2560x1600.png` | `2560 × 1600 px` (16:10) | PNG 24-bit RGB | 178.3 KB (`182.537 B`) | `cba6295eeed37a8b083d879d378c38a233a6e38a0087c53c019d828f799afad2` |
 | **Tablet 10" #02** | `screenshots-tablet-10/02-tablet10-busca-fts5-e-vocabularios-2560x1600.png` | `2560 × 1600 px` (16:10) | PNG 24-bit RGB | 252.0 KB (`258.098 B`) | `2fe3696eab746408389966714a43ac2177fa37b3178ff06a0cc02db46c8bacf8` |
-| **Tablet 10" #03** | `screenshots-tablet-10/03-tablet10-editor-pranchas-e-parental-gate-2560x1600.png` | `2560 × 1600 px` (16:10) | PNG 24-bit RGB | 259.8 KB (`266.001 B`) | `b089523e0f6e58b3738ee3d4d7f38f2825fa6b3fbc4c14a93f24ae1895137ffb` |
 
 ---
 
@@ -83,7 +95,7 @@ Todos os arquivos PNG de loja foram gerados e validados no modo **RGB de 24 bits
 
 Fonte: `/workspace/vozviva-mobile/docs/store-metadata/{pt-BR,en-US,es-419}/screenshots_copy.json` e `GOOGLE_PLAY_STORE_LISTING_TRILINGUAL.md`.
 
-### 4.1. Feature Graphic (`feature-graphic-1024x500.png`)
+### 4.1. Feature Graphic (`feature-graphic-1024x500.png`, RETIRADA em 2026-11-22; texto abaixo é o da ficha, não da imagem antiga)
 | Idioma | Título Principal | Subtítulo | Badges |
 | :--- | :--- | :--- | :--- |
 | **`pt-BR`** | **VozViva: Sua Voz, Sempre Pronta** | Comunicação Alternativa (CAA) 100% Offline, Gratuita e Sem Anúncios | `100% Offline` • `WCAG AAA` • `Sem Conta e Sem Anúncios` |
@@ -97,12 +109,12 @@ Fonte: `/workspace/vozviva-mobile/docs/store-metadata/{pt-BR,en-US,es-419}/scree
 | **02** | `02-busca-instantanea-offline-fts5-1080x1920.png` | **Encontre qualquer pictograma em milissegundos**<br>Busca offline inteligente (FTS5) que entende sinônimos familiares e termos clínicos. | **Find Any Symbol in Milliseconds**<br>Smart offline search (FTS5) that understands family synonyms and clinical terms. | **Encuentra Cualquier Pictograma al Instante**<br>Búsqueda sin internet (FTS5) que comprende sinónimos familiares y términos clínicos. |
 | **03** | `03-modo-crianca-alvos-amplos-1080x1920.png` | **Alvos amplos e zero distrações para a criança**<br>Grades de 1×1 até 6×6 com proteção contra toques acidentais e fala imediata. | **Large Touch Targets & Zero Distractions**<br>Customizable 1×1 to 6×6 grids with accidental touch protection and instant speech. | **Botones Amplios y Cero Distracciones**<br>Cuadrículas de 1×1 a 6×6 con protección contra toques accidentales y habla inmediata. |
 | **04** | `04-modo-responsavel-parental-gate-editor-1080x1920.png` | **Personalize com fotos reais e ocultação progressiva**<br>Modo Responsável protegido por PIN para editar cartões sem bagunçar a grade. | **Personalize with Real Photos & Progressive Masking**<br>PIN-protected Caregiver Mode to edit cards and hide slots without breaking the grid. | **Personaliza con Fotos Reales y Ocultación Progresiva**<br>Modo Cuidador protegido por PIN para editar tarjetas sin alterar la cuadrícula. |
-| **05** | `05-temas-acessiveis-wcag-aaa-offline-1080x1920.png` | **Conforto visual WCAG AAA**<br>Temas Claro Calmo, Escuro e Alto Contraste. Sem anúncios e sem conta. | **WCAG AAA Visual Comfort**<br>Warm Daylight, Calm Slate, and High Contrast themes. No ads and no account. | **Confort Visual WCAG AAA**<br>Temas Claro Calmo, Oscuro y Alto Contraste. Sin anuncios y sin cuenta. |
+| **05** | *(RETIRADA em 2026-11-22)* `05-temas-acessiveis-wcag-aaa-offline-1080x1920.png` | **Conforto visual WCAG AAA**<br>Temas Claro Calmo, Escuro e Alto Contraste. Sem anúncios e sem conta. | **WCAG AAA Visual Comfort**<br>Warm Daylight, Calm Slate, and High Contrast themes. No ads and no account. | **Confort Visual WCAG AAA**<br>Temas Claro Calmo, Oscuro y Alto Contraste. Sin anuncios y sin cuenta. |
 
 ### 4.3. Prints de Tablet 7" (`screenshots-tablet-7/` — `1920 × 1200 px`) e Tablet 10" (`screenshots-tablet-10/` — `2560 × 1600 px`)
 | Slot | Arquivo Tablet 7" / Tablet 10" | `pt-BR` | `en-US` | `es-419` |
 | :---: | :--- | :--- | :--- | :--- |
 | **01** | `01-tablet7-prancha-caa-ampla-1920x1200.png`<br>`01-tablet10-comunicador-caa-grade-completa-2560x1600.png` | **Prancha Principal Ampla com Vocabulário Essencial Sempre Visível**<br>Comunicação CAA em Tela Cheia: Alvos Amplos e Barra de Frase Clara | **Wide Core Vocabulary Board Always Within Reach**<br>Full-Screen AAC Communication: Wide Targets & Clear Sentence Strip | **Tablero Principal Amplio con Vocabulario Esencial Siempre Visible**<br>Comunicación CAA en Pantalla Completa: Botones Amplios y Barra de Frases Clara |
 | **02** | `02-tablet7-subpranchas-e-busca-offline-1920x1200.png`<br>`02-tablet10-busca-fts5-e-vocabularios-2560x1600.png` | **Navegação Rápida entre 7 Pranchas Clínicas e Busca Offline Instantânea**<br>Personalização Rápida para Fonoaudiólogos, Educadores e Famílias | **Fast Navigation Across 7 Clinical Boards & Instant Offline Search**<br>Fast Customization for SLPs, Educators, and Families | **Navegación Rápida entre 7 Tableros Clínicos y Búsqueda Offline Instantánea**<br>Personalización Rápida para Terapeutas del Habla, Educadores y Familias |
-| **03** | `03-tablet7-estudio-modo-responsavel-split-1920x1200.png`<br>`03-tablet10-editor-pranchas-e-parental-gate-2560x1600.png` *(tablet-10 pendente de regeração)* | **Modo Responsável Split-View: Hub Protegido por PIN e Editor Completo de Cartões**<br>Edição de pranchas e cartões para clínicas, escolas e famílias | **Split-View Caregiver Mode: PIN-Protected Hub & Full AAC Card Editor**<br>Board and card editing for clinics, schools, and homes | **Modo Responsable en Vista Dividida: Centro Protegido por PIN y Editor Completo**<br>Edición de tableros y tarjetas para clínicas, escuelas y familias |
+| **03** | `03-tablet7-estudio-modo-responsavel-split-1920x1200.png`<br>`03-tablet10-editor-pranchas-e-parental-gate-2560x1600.png` *(tablet-10/03 RETIRADA em 2026-11-22)* | **Modo Responsável Split-View: Hub Protegido por PIN e Editor Completo de Cartões**<br>Edição de pranchas e cartões para clínicas, escolas e famílias | **Split-View Caregiver Mode: PIN-Protected Hub & Full AAC Card Editor**<br>Board and card editing for clinics, schools, and homes | **Modo Responsable en Vista Dividida: Centro Protegido por PIN y Editor Completo**<br>Edición de tableros y tarjetas para clínicas, escuelas y familias |
 | **04** | `04-tablet7-acessibilidade-alto-contraste-aaa-1920x1200.png` | **Acessibilidade Visual WCAG AAA (Contraste 21:1) e Dupla Codificação**<br>Sem conta e sem anúncios; seus dados ficam no aparelho. | **WCAG AAA Visual Accessibility (21:1 Contrast) & Dual Coding**<br>No account, no ads; your data stays on your device. | **Accesibilidad Visual WCAG AAA (Contraste 21:1) y Doble Codificación**<br>Sin cuenta y sin anuncios; tus datos se quedan en tu dispositivo. |
