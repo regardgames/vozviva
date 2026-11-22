@@ -184,8 +184,8 @@
       'footer.licenses_link': 'Créditos e Licenças (Mulberry & ARASAAC)',
       'footer.col_links': 'Links Oficiais',
       'footer.repo_link': 'Portal & Releases no GitHub',
-      'footer.support_link': 'Suporte técnico (sem dados pessoais)',
-      'footer.privacy_contact': 'Privacidade e outros assuntos: contato@regardgames.com',
+      'footer.support_link': 'Chamados técnicos no GitHub (públicos; sem dados de crianças)',
+      'footer.privacy_contact': 'Privacidade e outros assuntos: dayvidemerson96@gmail.com',
       'footer.copyright': '© 2026 Regard Games — Picos, Piauí, Brasil. Todos os direitos reservados.'
     }
   };
@@ -372,8 +372,8 @@
     'footer.licenses_link': 'Symbol Credits & Licenses (Mulberry & ARASAAC)',
     'footer.col_links': 'Official Links',
     'footer.repo_link': 'Portal & Releases on GitHub',
-    'footer.support_link': 'Technical support (no personal data)',
-    'footer.privacy_contact': 'Privacy and other matters: contato@regardgames.com',
+    'footer.support_link': 'Technical issues on GitHub (public; no children’s data)',
+    'footer.privacy_contact': 'Privacy and other matters: dayvidemerson96@gmail.com',
     'footer.copyright': '© 2026 Regard Games — Picos, Piauí, Brazil. All rights reserved.'
   };
 })();
@@ -558,8 +558,8 @@
     'footer.licenses_link': 'Créditos y Licencias (Mulberry y ARASAAC)',
     'footer.col_links': 'Enlaces Oficiales',
     'footer.repo_link': 'Portal y Releases en GitHub',
-    'footer.support_link': 'Soporte técnico (sin datos personales)',
-    'footer.privacy_contact': 'Privacidad y otros asuntos: contato@regardgames.com',
+    'footer.support_link': 'Incidencias técnicas en GitHub (públicas; sin datos de niños)',
+    'footer.privacy_contact': 'Privacidad y otros asuntos: dayvidemerson96@gmail.com',
     'footer.copyright': '© 2026 Regard Games — Picos, Piauí, Brasil. Todos los derechos reservados.'
   };
 

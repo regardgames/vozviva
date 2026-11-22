@@ -71,10 +71,10 @@ Como os dados ficam no seu aparelho, é você quem decide sobre eles:
 - Se você nos escreveu por e-mail, pode pedir acesso, correção ou exclusão do que enviou (veja Contato).
 
 ### 8. Contato sobre Privacidade e Proteção de Dados
-**Privacidade e proteção de dados.** Escreva para **`contato@regardgames.com`** (assunto "Privacidade") para tirar dúvidas, pedir acesso, correção ou exclusão do que você nos enviou, ou falar sobre dados de uma criança.
-- **Cuidado com dados de crianças:** no primeiro contato, não envie nome, foto, laudo nem informações de saúde da criança. Se for preciso, avisaremos como enviar com segurança.
+**Privacidade e proteção de dados.** Escreva para **`dayvidemerson96@gmail.com`** (assunto "Privacidade") para tirar dúvidas, pedir acesso, correção ou exclusão do que você nos enviou, ou falar sobre dados de uma criança.
+- **Este e-mail não é um canal para enviar dados de crianças nem arquivos de backup.** Não envie nome, foto, laudo nem informações de saúde da criança. Se for preciso, avisaremos como proceder com segurança.
 - **Prazo:** respondemos em até 15 dias corridos.
-- **Encarregado pelo tratamento de dados pessoais:** a Regard Games. O contato é o mesmo e-mail acima.
+- **Encarregado pelo tratamento de dados pessoais:** Dayvid Emerson (pela Regard Games, controladora). Contato: o e-mail acima.
 - **Seu e-mail:** usamos só para responder e guardamos por 12 meses depois do atendimento; depois, apagamos.
 
 **Problemas técnicos (sem dados pessoais).** Você pode abrir um chamado no GitHub (<https://github.com/regardgames/vozviva/issues>). Atenção: chamados são públicos. **Nunca publique ali nomes, fotos ou informações de crianças ou de famílias.** Em caso de dúvida, escreva por e-mail.
@@ -171,10 +171,10 @@ Because your data stays on your device, you decide what happens to it:
 - If you wrote to us by email, you can ask for access, correction or deletion of what you sent (see Contact).
 
 ### 8. Privacy Contact
-**Privacy and data protection.** Write to **`contato@regardgames.com`** (subject "Privacy") with questions, to ask for access, correction or deletion of what you sent us, or to talk about a child's data.
-- **Care with children's data:** in your first message, do not send a child's name, photo, medical report or health information. If needed, we will tell you how to send it securely.
+**Privacy and data protection.** Write to **`dayvidemerson96@gmail.com`** (subject "Privacy") with questions, to ask for access, correction or deletion of what you sent us, or to talk about a child's data.
+- **This email is not a channel for sending children's data or backup files.** Do not send a child's name, photo, medical report or health information. If needed, we will tell you how to proceed securely.
 - **Response time:** we reply within 15 calendar days.
-- **Data protection officer:** Regard Games. Contact is the same email above.
+- **Data protection officer:** Dayvid Emerson (for Regard Games, the controller). Contact: the email above.
 - **Your email:** we use it only to reply, and keep it for 12 months after the request is closed; then we delete it.
 
 **Technical problems (no personal data).** You may open an issue on GitHub (<https://github.com/regardgames/vozviva/issues>). Note: issues are public. **Never post names, photos or information about children or families there.** If in doubt, email us.
@@ -268,10 +268,10 @@ Como tus datos se quedan en tu dispositivo, tú decides qué hacer con ellos:
 - Si nos escribiste por correo, puedes pedir acceso, corrección o eliminación de lo que enviaste (ver Contacto).
 
 ### 8. Contacto de Privacidad
-**Privacidad y protección de datos.** Escribe a **`contato@regardgames.com`** (asunto "Privacidad") para resolver dudas, pedir acceso, corrección o eliminación de lo que nos enviaste, o hablar sobre datos de un niño.
-- **Cuidado con los datos de niños:** en el primer contacto, no envíes nombre, foto, informe médico ni información de salud del niño. Si hace falta, te diremos cómo enviarlo de forma segura.
+**Privacidad y protección de datos.** Escribe a **`dayvidemerson96@gmail.com`** (asunto "Privacidad") para resolver dudas, pedir acceso, corrección o eliminación de lo que nos enviaste, o hablar sobre datos de un niño.
+- **Este correo no es un canal para enviar datos de niños ni archivos de copia de seguridad.** No envíes nombre, foto, informe médico ni información de salud del niño. Si hace falta, te diremos cómo proceder de forma segura.
 - **Plazo:** respondemos en un máximo de 15 días corridos.
-- **Encargado de protección de datos:** Regard Games. El contacto es el mismo correo de arriba.
+- **Encargado de protección de datos:** Dayvid Emerson (por Regard Games, responsable). Contacto: el correo de arriba.
 - **Tu correo:** lo usamos solo para responder y lo guardamos 12 meses después de cerrar la solicitud; después lo borramos.
 
 **Problemas técnicos (sin datos personales).** Puedes abrir una incidencia en GitHub (<https://github.com/regardgames/vozviva/issues>). Ojo: las incidencias son públicas. **Nunca publiques allí nombres, fotos ni información de niños o familias.** Si tienes dudas, escríbenos por correo.

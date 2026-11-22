@@ -17,7 +17,7 @@ O **VozViva** é uma plataforma gratuita e **100% offline** de **Comunicação A
 - **Modo Criança e Modo Responsável:** o Modo Criança foca na comunicação; para editar, o adulto passa por uma trava (conta de matemática ou PIN local de 4 dígitos, com chave de recuperação) que evita toques acidentais. Grades de `2×2` a `5×6` (4 a 30 cartões por prancha) e Faixa de Cartões Fixos Base em todas as telas.
 - **Backup:** arquivo (`.assistivebackup`) protegido por senha, com cifragem própria do VozViva (ainda sem auditoria independente). **Atenção (versão 1.0.3):** o campo de senha vem preenchido com uma senha sugerida que é pública; se você gerou um backup sem trocá-la, trate o arquivo como **não protegido** e troque a senha antes de gerar novos arquivos.
 - **Multiplataforma:** Disponível gratuitamente para **Android (`.apk`)**, **Windows 10/11 (`.zip` portátil)** e **Ubuntu / Linux (`.tar.gz`)** *(iOS: indisponível por enquanto)*. Requer Android 7.0 ou superior.
-- **Privacidade e contato:** [Política de Privacidade](https://regardgames.github.io/vozviva/privacy-policy.html) · `contato@regardgames.com`.
+- **Privacidade e contato:** [Política de Privacidade](https://regardgames.github.io/vozviva/privacy-policy.html) · `dayvidemerson96@gmail.com`.
 
 ---
 
@@ -29,7 +29,7 @@ O **VozViva** é uma plataforma gratuita e **100% offline** de **Comunicação A
 - **Privacy by default:** no account, no ads, no trackers. Boards, family photos (with automatic EXIF/GPS removal) and phrases stay only on your device; Regard Games does not receive that content. The optional ARASAAC search, in Caregiver Mode, sends the searched word to that service.
 - **Child Mode and Caregiver Mode:** Child Mode focuses on communication; to edit, an adult passes a lock (math question or local PIN) that prevents accidental taps.
 - **Backup:** a password-protected file (`.assistivebackup`) with VozViva's own encryption (not yet independently audited). **Notice (version 1.0.3):** the password field comes pre-filled with a suggested password that is public; if you created a backup without changing it, treat the file as **not protected** and change the password before creating new files.
-- **Multiplatform:** Available for **Android (`.apk`)**, **Windows 10/11 (`.zip` portable)**, and **Ubuntu / Linux (`.tar.gz`)** *(iOS: unavailable for now)*. Requires Android 7.0 or higher. Privacy contact: `contato@regardgames.com`.
+- **Multiplatform:** Available for **Android (`.apk`)**, **Windows 10/11 (`.zip` portable)**, and **Ubuntu / Linux (`.tar.gz`)** *(iOS: unavailable for now)*. Requires Android 7.0 or higher. Privacy contact: `dayvidemerson96@gmail.com`.
 
 ---
 
@@ -40,7 +40,7 @@ O **VozViva** é uma plataforma gratuita e **100% offline** de **Comunicação A
 - **Privacidad por defecto:** sin cuenta, sin anuncios y sin rastreadores. Tableros, fotos familiares (con eliminación automática de EXIF/GPS) y frases se quedan solo en tu dispositivo; Regard Games no recibe ese contenido. La búsqueda opcional en ARASAAC, en el Modo Responsable, envía la palabra buscada a ese servicio.
 - **Modo Niño y Modo Responsable:** el Modo Niño se centra en la comunicación; para editar, un adulto pasa un bloqueo (cuenta de matemáticas o PIN local) que evita toques accidentales.
 - **Copia de seguridad:** un archivo (`.assistivebackup`) protegido con contraseña, con cifrado propio de VozViva (aún sin auditoría independiente). **Aviso (versión 1.0.3):** el campo de contraseña viene rellenado con una contraseña sugerida que es pública; si creaste una copia sin cambiarla, trata el archivo como **no protegido** y cambia la contraseña antes de crear archivos nuevos.
-- **Contacto de privacidad:** `contato@regardgames.com`.
+- **Contacto de privacidad:** `dayvidemerson96@gmail.com`.
 
 ---
 
